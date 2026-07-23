@@ -1,0 +1,24 @@
+{
+  "name": "mcp_first",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --env-file=.env --watch-path=./src src/index.ts",
+    "dev2": "node --env-file=.env --watch-path=./src src/index2.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^26.1.1",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "openai": "^6.48.0",
+    "zod": "^4.4.3"
+  }
+}
