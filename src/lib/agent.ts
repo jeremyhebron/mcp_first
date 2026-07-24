@@ -1,20 +1,48 @@
 import type { ChatCompletionMessageParam } from "openai/resources.js";
-import type LocalTool from "./tool.js";
+import type LocalTool from "./tool.ts";
 import OpenAI from "openai";
+import { MCPTool } from "./tool.ts";
+import { StdioClientTransport } from "@modelcontextprotocol/sdk/client/stdio.js";
+import { StreamableHTTPClientTransport } from "@modelcontextprotocol/sdk/client/streamableHttp.js";
+import type { Transport } from "@modelcontextprotocol/sdk/shared/transport";
+import { Client } from "@modelcontextprotocol/sdk/client";
+
+type MCPStdioConfig = {
+  transport: "stdio";
+  command: string;
+  args: string[];
+};
+
+type MCPStreamableHTTPConfig = {
+  transport: "http";
+  url: string;
+  headers: object;
+};
+
+type MCPConfig = Record<string, MCPStdioConfig | MCPStreamableHTTPConfig>;
 
 interface AgentConstructorArgs {
   model: string;
   systemPrompt: string;
   localTools: Record<string, LocalTool<any, any>>;
+  mcpConfig: MCPConfig;
 }
 
 export default class Agent {
   model: string;
   systemPrompt: string;
   messages: ChatCompletionMessageParam[];
-  toolRegistry: Record<string, LocalTool<any, any>>;
+  toolRegistry: Record<string, LocalTool<any, any> | MCPTool>;
   client: OpenAI;
-  constructor({ model, systemPrompt, localTools }: AgentConstructorArgs) {
+  mcpConfig: MCPConfig;
+  mcpClients: Client[];
+
+  constructor({
+    model,
+    systemPrompt,
+    localTools,
+    mcpConfig,
+  }: AgentConstructorArgs) {
     this.model = model;
     this.systemPrompt = systemPrompt;
     this.messages = [
@@ -29,6 +57,69 @@ export default class Agent {
       apiKey: process.env.ANTHROPIC_API_KEY,
       baseURL: "https://api.anthropic.com/v1",
     });
+    this.mcpConfig = mcpConfig;
+    this.mcpClients = [];
+  }
+
+  async closeMCPConnections() {
+    for (const client of this.mcpClients) {
+      await client.close();
+    }
+
+    this.mcpClients = [];
+  }
+
+  async loadMCPTools() {
+    const mcpConfigs = Object.entries(this.mcpConfig);
+
+    for (const [serverName, config] of mcpConfigs) {
+      let transport: StdioClientTransport | StreamableHTTPClientTransport;
+
+      if (config.transport === "stdio") {
+        transport = new StdioClientTransport({
+          command: config.command,
+          args: config.args,
+        });
+      } else if (config.transport === "http") {
+        const url = new URL(config.url);
+
+        transport = new StreamableHTTPClientTransport(url, {
+          requestInit: {
+            headers: config.headers,
+          },
+        });
+      } else {
+        throw new Error("Incorrect MCP config");
+      }
+
+      const mcpClient = new Client({
+        name: "my-app",
+        version: "1.0.0",
+      });
+
+      await mcpClient.connect(transport as Transport);
+
+      const { tools } = await mcpClient.listTools();
+
+      for (const tool of tools) {
+        const mcpTool = new MCPTool({
+          name: tool.name,
+          mcpClient,
+          description: tool.description ?? "",
+          definition: {
+            type: "function",
+            function: {
+              name: tool.name,
+              description: tool.description ?? "",
+              parameters: tool.inputSchema,
+            },
+          },
+        });
+        this.toolRegistry[mcpTool.name] = mcpTool;
+      }
+
+      this.mcpClients.push(mcpClient);
+    }
   }
 
   //helper functions
@@ -43,6 +134,8 @@ export default class Agent {
   }
 
   async start({ prompt, maxSteps }: { prompt: string; maxSteps: number }) {
+    await this.loadMCPTools();
+
     this.messages.push({
       role: "user",
       content: prompt,
@@ -144,6 +237,7 @@ export default class Agent {
           content: finalResponse,
         });
 
+        await this.closeMCPConnections();
         return finalResponse;
       }
     }

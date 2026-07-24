@@ -1,0 +1,415 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en
+  - generic [ref=e8]:
+    - search [ref=e9]:
+      - generic [ref=e12]:
+        - link [ref=e13] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&ictx=0&sa=X&ved=0ahUKEwjCiYDjseqVAxXpNEQIHVzoGn4QpYkNCAo
+          - img "Go to Google home" [ref=e14]
+        - generic [ref=e19]:
+          - combobox "Search" [ref=e22]: Dodgers news latest Dodgers news latest
+          - generic [ref=e23]:
+            - button "Clear" [ref=e25] [cursor=pointer]
+            - generic [ref=e30]:
+              - button "Search by voice" [ref=e31] [cursor=pointer]
+              - button "Search by image" [ref=e34] [cursor=pointer]
+        - button "Search" [ref=e37] [cursor=pointer]
+    - generic [ref=e42]:
+      - button "Settings" [ref=e44] [cursor=pointer]
+      - button "Share" [ref=e50] [cursor=pointer]
+      - generic [ref=e56]:
+        - button "Google apps" [ref=e58] [cursor=pointer]
+        - link "Sign in" [ref=e63] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3DDodgers%2Bnews%2Blatest&ec=futura_srp_og_si_72236_p
+  - generic [ref=e65]:
+    - navigation [ref=e71]:
+      - generic [ref=e77]:
+        - list [ref=e78]:
+          - listitem [ref=e79]:
+            - link "AI Mode" [ref=e82] [cursor=pointer]:
+              - /url: /search?q=Dodgers+news+latest&sca_esv=3ec428b44c56173e&udm=50&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cY2oODYyTyZk24Xz37_7FQ-WwsgSXs3G1Acf3uFzybY10s1hrAwRiNmX-q6YMPsVr2QkqZioRMQKZF9UUINOoBZnwaQLELmD_6kQBvGF_aMyM45UK547PlPXI2XBn76pwCTfnXoLWW5KsqIlXak61-R3HGYRQyQhFAS-XrgtyBhbmVS3MHZ5RvmLD6wKUxomjmuovHw&aep=1&ntc=1&cs=0&sa=X&ved=2ahUKEwjCiYDjseqVAxXpNEQIHVzoGn4Q2J8OegQIEBAD
+          - listitem [ref=e86]:
+            - link "All" [disabled] [ref=e87]
+          - listitem [ref=e90]:
+            - link "News" [ref=e91] [cursor=pointer]:
+              - /url: /search?sca_esv=3ec428b44c56173e&q=Dodgers+news+latest&tbm=nws&source=lnms&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cY2oODYyTyZk24Xz37_7FQ-WwsgSXs3G1Acf3uFzybY10s1hrAwRiNmX-q6YMPsVr2QkqZioRMQKZF9UUINOoBZnwaQLELmD_6kQBvGF_aMyM45UK547PlPXI2XBn76pwCTfnXoLWW5KsqIlXak61-R3HGYRQyQhFAS-XrgtyBhbmVS3MHZ5RvmLD6wKUxomjmuovHw&sa=X&ved=2ahUKEwjCiYDjseqVAxXpNEQIHVzoGn4Q0pQJegQIFhAB
+          - listitem [ref=e94]:
+            - link "Videos" [ref=e95] [cursor=pointer]:
+              - /url: /search?sca_esv=3ec428b44c56173e&udm=7&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cY2oODYyTyZk24Xz37_7FQ-WwsgSXs3G1Acf3uFzybY10s1hrAwRiNmX-q6YMPsVr2QkqZioRMQKZF9UUINOoBZnwaQLELmD_6kQBvGF_aMyM45UK547PlPXI2XBn76pwCTfnXoLWW5KsqIlXak61-R3HGYRQyQhFAS-XrgtyBhbmVS3MHZ5RvmLD6wKUxomjmuovHw&q=Dodgers+news+latest&sa=X&ved=2ahUKEwjCiYDjseqVAxXpNEQIHVzoGn4QtKgLegQIFRAB
+          - listitem [ref=e98]:
+            - link "Images" [ref=e99] [cursor=pointer]:
+              - /url: /search?sca_esv=3ec428b44c56173e&udm=2&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cY2oODYyTyZk24Xz37_7FQ-WwsgSXs3G1Acf3uFzybY10s1hrAwRiNmX-q6YMPsVr2QkqZioRMQKZF9UUINOoBZnwaQLELmD_6kQBvGF_aMyM45UK547PlPXI2XBn76pwCTfnXoLWW5KsqIlXak61-R3HGYRQyQhFAS-XrgtyBhbmVS3MHZ5RvmLD6wKUxomjmuovHw&q=Dodgers+news+latest&sa=X&ved=2ahUKEwjCiYDjseqVAxXpNEQIHVzoGn4QtKgLegQIFBAB
+          - listitem [ref=e102]:
+            - link "Short videos" [ref=e103] [cursor=pointer]:
+              - /url: /search?sca_esv=3ec428b44c56173e&udm=39&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cY2oODYyTyZk24Xz37_7FQ-WwsgSXs3G1Acf3uFzybY10s1hrAwRiNmX-q6YMPsVr2QkqZioRMQKZF9UUINOoBZnwaQLELmD_6kQBvGF_aMyM45UK547PlPXI2XBn76pwCTfnXoLWW5KsqIlXak61-R3HGYRQyQhFAS-XrgtyBhbmVS3MHZ5RvmLD6wKUxomjmuovHw&q=Dodgers+news+latest&sa=X&ved=2ahUKEwjCiYDjseqVAxXpNEQIHVzoGn4Qs6gLegQIExAB
+          - listitem [ref=e106]:
+            - link "Forums" [ref=e107] [cursor=pointer]:
+              - /url: /search?sca_esv=3ec428b44c56173e&udm=18&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cY2oODYyTyZk24Xz37_7FQ-WwsgSXs3G1Acf3uFzybY10s1hrAwRiNmX-q6YMPsVr2QkqZioRMQKZF9UUINOoBZnwaQLELmD_6kQBvGF_aMyM45UK547PlPXI2XBn76pwCTfnXoLWW5KsqIlXak61-R3HGYRQyQhFAS-XrgtyBhbmVS3MHZ5RvmLD6wKUxomjmuovHw&q=Dodgers+news+latest&sa=X&ved=2ahUKEwjCiYDjseqVAxXpNEQIHVzoGn4Qs6gLegQIEhAB
+          - listitem [ref=e110]:
+            - button [ref=e111] [cursor=pointer]:
+              - generic "More filters" [ref=e112]: More
+        - button "Tools" [ref=e119] [cursor=pointer]
+    - heading "Search Results" [level=1] [ref=e126]
+    - main [ref=e132]:
+      - generic [ref=e136]:
+        - generic [ref=e139]:
+          - heading "Web results" [level=2] [ref=e140]
+          - generic [ref=e141]:
+            - generic [ref=e144]:
+              - link "Latest Dodgers News - Los Angeles MLB.com https://www.mlb.com › dodgers › news" [ref=e146] [cursor=pointer]:
+                - /url: https://www.mlb.com/dodgers/news
+                - heading "Latest Dodgers News - Los Angeles" [level=3] [ref=e147]
+                - generic [ref=e153]:
+                  - generic [ref=e154]: MLB.com
+                  - generic [ref=e156]: https://www.mlb.com › dodgers › news
+              - button "About this result" [ref=e160] [cursor=pointer]
+            - generic [ref=e166]:
+              - generic [ref=e167]:
+                - emphasis [ref=e168]: Dodgers visit White House to celebrate back-to-back World Series titles
+                - text: · Status of Dodgers' 4 aces to dictate Trade Deadline strategy · Stream Dodgers games ...
+              - link "Read more" [ref=e169] [cursor=pointer]:
+                - /url: https://www.mlb.com/dodgers/news#:~:text=Dodgers%20visit%20White%20House%20to,celebrate%20back%2Dto%2Dback%20World%20Series%20titles&text=Status%20of%20Dodgers'%204%20aces,to%20dictate%20Trade%20Deadline%20strategy&text=Stream%20Dodgers%20games%20through%20the,MLB%20App
+        - generic [ref=e173]:
+          - generic [ref=e176]:
+            - link "Dodgers Nation | Independent Dodgers News, Rumors ... Dodgers Nation https://dodgersnation.com" [ref=e178] [cursor=pointer]:
+              - /url: https://dodgersnation.com/
+              - heading "Dodgers Nation | Independent Dodgers News, Rumors ..." [level=3] [ref=e179]
+              - generic [ref=e185]:
+                - generic [ref=e186]: Dodgers Nation
+                - generic [ref=e188]: https://dodgersnation.com
+            - button "About this result" [ref=e192] [cursor=pointer]
+          - generic [ref=e198]:
+            - generic [ref=e199]:
+              - text: Latest News ·
+              - emphasis [ref=e200]: Dodgers World Series Champion Weighs in on Tarik Skubal Speculation
+              - text: "· Dodgers to Close Road Trip With 3-Game Mets Series: Preview · Dave Roberts ..."
+            - link "Read more" [ref=e201] [cursor=pointer]:
+              - /url: https://dodgersnation.com/#:~:text=Latest%20News&text=Dodgers%20World%20Series%20Champion%20Weighs,in%20on%20Tarik%20Skubal%20Speculation&text=Dodgers%20to%20Close%20Road%20Trip,With%203%2DGame%20Mets%20Series%3A%20Preview&text=Dave%20Roberts%20Reveals%20Which%20Version,Shohei%20Ohtani%20Dodgers%20Value%20More
+          - list [ref=e203]:
+            - listitem [ref=e204]:
+              - link "News" [ref=e205] [cursor=pointer]:
+                - /url: https://dodgersnation.com/news/team/
+            - listitem [ref=e208]:
+              - link "Schedule" [ref=e209] [cursor=pointer]:
+                - /url: https://dodgersnation.com/schedule/
+            - listitem [ref=e212]:
+              - link "Stadium" [ref=e213] [cursor=pointer]:
+                - /url: https://dodgersnation.com/dodger-stadium/
+            - listitem [ref=e216]:
+              - link "About Us" [ref=e217] [cursor=pointer]:
+                - /url: https://dodgersnation.com/staff/
+        - generic [ref=e223]:
+          - generic [ref=e225]:
+            - heading "Top stories" [level=2] [ref=e227]
+            - link [ref=e231] [cursor=pointer]:
+              - /url: https://accounts.google.com/ServiceLogin?ec=oo-seaport-srp-sp-11135&continue=https://www.google.com/search?q%3DDodgers%2Bnews%2Blatest%26sca_esv%3D3ec428b44c56173e%26ptid%3D11135%26ptt%3D8%26fpts%3D1784864330493
+          - 'link "Sports Illustrated About this result Dodgers Notes: LA Officially Releases Veteran, Emmet Sheehan Decision, Dave Roberts Talks Trade Deadline Plan 15 hours ago" [ref=e239] [cursor=pointer]':
+            - /url: https://www.si.com/mlb/dodgers/onsi/dodgers-notes-la-officially-releases-veteran-emmet-sheehan-decision-dave-roberts-talks-trade-deadline-plan
+            - generic [ref=e244]:
+              - generic [ref=e246]:
+                - generic [ref=e247]: Sports Illustrated
+                - button "About this result" [ref=e252]
+              - 'heading "Dodgers Notes: LA Officially Releases Veteran, Emmet Sheehan Decision, Dave Roberts Talks Trade Deadline Plan" [level=3] [ref=e255]'
+              - generic: 15 hours ago
+          - 'link "ESPN About this result Trump hails Dodgers at second White House visit: ''One of the great brands'' 5 hours ago" [ref=e259] [cursor=pointer]':
+            - /url: https://www.espn.com/espn/story/_/id/49435696/trump-hails-dodgers-white-house
+            - generic [ref=e264]:
+              - generic [ref=e266]:
+                - generic [ref=e267]: ESPN
+                - button "About this result" [ref=e272]
+              - 'heading "Trump hails Dodgers at second White House visit: ''One of the great brands''" [level=3] [ref=e275]'
+              - generic: 5 hours ago
+          - link "MLB.com About this result Status of Dodgers' 4 aces to dictate Trade Deadline strategy 1 day ago" [ref=e279] [cursor=pointer]:
+            - /url: https://www.mlb.com/news/dodgers-rotation-in-focus-at-2026-trade-deadline
+            - generic [ref=e284]:
+              - generic [ref=e286]:
+                - generic [ref=e287]: MLB.com
+                - button "About this result" [ref=e292]
+              - heading "Status of Dodgers' 4 aces to dictate Trade Deadline strategy" [level=3] [ref=e295]
+              - generic: 1 day ago
+          - link "More news" [ref=e298] [cursor=pointer]:
+            - /url: /search?sca_esv=3ec428b44c56173e&q=Dodgers+news+latest&tbm=nws&source=univ&tbo=u&sa=X&ved=2ahUKEwjCiYDjseqVAxXpNEQIHVzoGn4Qt8YBKAJ6BAgXEAU
+            - separator [ref=e299]
+        - generic [ref=e307]:
+          - heading "Web results" [level=2] [ref=e308]
+          - generic [ref=e309]:
+            - generic [ref=e312]:
+              - link "Los Angeles Dodgers X · Dodgers 3.1M+ followers" [ref=e314] [cursor=pointer]:
+                - /url: https://x.com/Dodgers
+                - heading "Los Angeles Dodgers" [level=3] [ref=e315]
+                - generic [ref=e321]:
+                  - generic [ref=e322]: X · Dodgers
+                  - generic [ref=e324]: 3.1M+ followers
+              - button "About this result" [ref=e328] [cursor=pointer]
+            - generic [ref=e335]:
+              - emphasis [ref=e336]: Dodgers power past Philly with homers from Max Muncy and Dalton Rushing
+              - text: . Dalton Rushing is now batting .308 (16-for-52) with runners in scoring position. The ...
+        - generic [ref=e340]:
+          - heading "Latest posts from Los Angeles Dodgers" [level=2] [ref=e343]
+          - generic [ref=e347]:
+            - list [ref=e349]:
+              - generic [ref=e350]:
+                - listitem [ref=e351]:
+                  - generic [ref=e354]:
+                    - generic [ref=e355]:
+                      - link [ref=e357] [cursor=pointer]:
+                        - /url: https://x.com/Dodgers/status/2080459017881550944?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+                      - generic [ref=e368]:
+                        - link "Behind the scenes with the champs. 6.1K+ likes · 3 hours ago Dodgers X About this result" [ref=e369] [cursor=pointer]:
+                          - /url: https://x.com/Dodgers/status/2080459017881550944?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+                        - generic [ref=e370]:
+                          - generic [ref=e371]: Behind the scenes with the champs.
+                          - generic [ref=e373]:
+                            - text: 6.1K+ likes ·
+                            - generic [ref=e374]: 3 hours ago
+                    - generic [ref=e377]:
+                      - link "Dodgers X" [ref=e379] [cursor=pointer]:
+                        - /url: https://x.com/Dodgers?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
+                        - generic [ref=e389]:
+                          - generic [ref=e390]: Dodgers
+                          - generic [ref=e391]: X
+                      - button "About this result" [ref=e395] [cursor=pointer]
+                - listitem [ref=e398]:
+                  - generic [ref=e401]:
+                    - generic [ref=e402]:
+                      - link [ref=e404] [cursor=pointer]:
+                        - /url: https://x.com/Dodgers/status/2080358409660961224?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+                      - generic [ref=e415]:
+                        - link "A Congressional Reception for the Champs. 🏆🏆 6.6K+ likes · 9 hours ago Dodgers X About this result" [ref=e416] [cursor=pointer]:
+                          - /url: https://x.com/Dodgers/status/2080358409660961224?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+                        - generic [ref=e417]:
+                          - generic [ref=e418]: A Congressional Reception for the Champs. 🏆🏆
+                          - generic [ref=e420]:
+                            - text: 6.6K+ likes ·
+                            - generic [ref=e421]: 9 hours ago
+                    - generic [ref=e424]:
+                      - link "Dodgers X" [ref=e426] [cursor=pointer]:
+                        - /url: https://x.com/Dodgers?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
+                        - generic [ref=e436]:
+                          - generic [ref=e437]: Dodgers
+                          - generic [ref=e438]: X
+                      - button "About this result" [ref=e442] [cursor=pointer]
+                - listitem [ref=e445]:
+                  - generic [ref=e448]:
+                    - generic [ref=e449]:
+                      - link [ref=e451] [cursor=pointer]:
+                        - /url: https://x.com/Dodgers/status/2080114120251371674?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+                      - generic [ref=e454]:
+                        - link "Tonight’s Photo of the Game presented by Daiso. 3.4K+ likes · 1 day ago Dodgers X About this result" [ref=e455] [cursor=pointer]:
+                          - /url: https://x.com/Dodgers/status/2080114120251371674?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+                        - generic [ref=e456]:
+                          - generic [ref=e457]: Tonight’s Photo of the Game presented by Daiso.
+                          - generic [ref=e459]:
+                            - text: 3.4K+ likes ·
+                            - generic [ref=e460]: 1 day ago
+                    - generic [ref=e463]:
+                      - link "Dodgers X" [ref=e465] [cursor=pointer]:
+                        - /url: https://x.com/Dodgers?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
+                        - generic [ref=e475]:
+                          - generic [ref=e476]: Dodgers
+                          - generic [ref=e477]: X
+                      - button "About this result" [ref=e481] [cursor=pointer]
+                - listitem [ref=e484]:
+                  - generic [ref=e488]:
+                    - generic [ref=e489]:
+                      - link [ref=e491] [cursor=pointer]:
+                        - /url: https://x.com/Dodgers/status/2080112206910521776?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+                      - generic [ref=e494]:
+                        - link "Who's your Player of the Game? Comment your answer below! 1.4K+ likes · 1 day ago Dodgers X About this result" [ref=e495] [cursor=pointer]:
+                          - /url: https://x.com/Dodgers/status/2080112206910521776?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+                        - generic [ref=e496]:
+                          - generic [ref=e497]: Who's your Player of the Game? Comment your answer below!
+                          - generic [ref=e499]:
+                            - text: 1.4K+ likes ·
+                            - generic [ref=e500]: 1 day ago
+                    - generic [ref=e503]:
+                      - link "Dodgers X" [ref=e505] [cursor=pointer]:
+                        - /url: https://x.com/Dodgers?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
+                        - generic [ref=e515]:
+                          - generic [ref=e516]: Dodgers
+                          - generic [ref=e517]: X
+                      - button "About this result" [ref=e521] [cursor=pointer]
+                - listitem [ref=e524]:
+                  - generic [ref=e528]:
+                    - generic [ref=e529]:
+                      - link [ref=e531] [cursor=pointer]:
+                        - /url: https://x.com/Dodgers/status/2080109996587540684?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+                        - generic [ref=e532]: 0:14
+                      - generic [ref=e540]:
+                        - link "Victory formation! Dodgers x @Yaamava 5.3K+ likes · 1 day ago Dodgers X About this result" [ref=e541] [cursor=pointer]:
+                          - /url: https://x.com/Dodgers/status/2080109996587540684?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+                        - generic [ref=e542]:
+                          - generic [ref=e543]: Victory formation! Dodgers x @Yaamava
+                          - generic [ref=e545]:
+                            - text: 5.3K+ likes ·
+                            - generic [ref=e546]: 1 day ago
+                    - generic [ref=e549]:
+                      - link "Dodgers X" [ref=e551] [cursor=pointer]:
+                        - /url: https://x.com/Dodgers?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
+                        - generic [ref=e561]:
+                          - generic [ref=e562]: Dodgers
+                          - generic [ref=e563]: X
+                      - button "About this result" [ref=e567] [cursor=pointer]
+            - button [ref=e570] [cursor=pointer]
+        - generic [ref=e577]:
+          - heading "Web results" [level=2] [ref=e578]
+          - generic [ref=e579]:
+            - generic [ref=e582]:
+              - 'link "Dodgers Way: LA Dodgers News, Rumors and Fan Community - Dodgers Way https://dodgersway.com" [ref=e584] [cursor=pointer]':
+                - /url: https://dodgersway.com/
+                - 'heading "Dodgers Way: LA Dodgers News, Rumors and Fan Community -" [level=3] [ref=e585]'
+                - generic [ref=e591]:
+                  - generic [ref=e592]: Dodgers Way
+                  - generic [ref=e594]: https://dodgersway.com
+              - button "About this result" [ref=e598] [cursor=pointer]
+            - generic [ref=e605]:
+              - emphasis [ref=e606]: Find the latest Los Angeles Dodgers news
+              - text: ", rumors, trades, free agency updates and more from the insider fans and analysts at Dodgers Way."
+        - generic [ref=e610]:
+          - generic [ref=e613]:
+            - link "The Latest Los Angeles Dodgers News SportSpyder.com https://sportspyder.com › mlb › news" [ref=e615] [cursor=pointer]:
+              - /url: https://sportspyder.com/mlb/los-angeles-dodgers/news
+              - heading "The Latest Los Angeles Dodgers News" [level=3] [ref=e616]
+              - generic [ref=e622]:
+                - generic [ref=e623]: SportSpyder.com
+                - generic [ref=e625]: https://sportspyder.com › mlb › news
+            - button "About this result" [ref=e629] [cursor=pointer]
+          - generic [ref=e636]:
+            - emphasis [ref=e637]: Dodgers announced Shohei Ohtani's indefinite pause
+            - text: . Dodgers Set to Activate Edwin Díaz, Kiké Hernández in Massive Boost Before
+        - generic [ref=e641]:
+          - generic [ref=e644]:
+            - link "True Blue LA True Blue LA https://www.truebluela.com" [ref=e646] [cursor=pointer]:
+              - /url: https://www.truebluela.com/
+              - heading "True Blue LA" [level=3] [ref=e647]
+              - generic [ref=e653]:
+                - generic [ref=e654]: True Blue LA
+                - generic [ref=e656]: https://www.truebluela.com
+            - button "About this result" [ref=e660] [cursor=pointer]
+          - generic [ref=e667]:
+            - text: Your best source for quality Los Angeles
+            - emphasis [ref=e668]: Dodgers news
+            - text: ", rumors, analysis, stats and scores from the fan perspective."
+            - emphasis [ref=e669]: Dodgers
+            - text: top Phillies 9-5
+        - generic [ref=e674]:
+          - heading "People also ask" [level=2] [ref=e676]
+          - generic [ref=e677]:
+            - button "What is the latest Dodgers news?" [ref=e683] [cursor=pointer]
+            - button "Who is not coming back to the Dodgers in 2026?" [ref=e697] [cursor=pointer]
+            - button "Why was Dodgers Yankees postponed today?" [ref=e711] [cursor=pointer]
+            - button "What's going on with Tony Gonsolin?" [ref=e725] [cursor=pointer]
+        - generic [ref=e735]:
+          - heading "Web results" [level=2] [ref=e736]
+          - generic [ref=e737]:
+            - generic [ref=e740]:
+              - link "Official Los Angeles Dodgers Website MLB.com https://www.mlb.com › dodgers" [ref=e742] [cursor=pointer]:
+                - /url: https://www.mlb.com/dodgers/
+                - heading "Official Los Angeles Dodgers Website" [level=3] [ref=e743]
+                - generic [ref=e749]:
+                  - generic [ref=e750]: MLB.com
+                  - generic [ref=e752]: https://www.mlb.com › dodgers
+              - button "About this result" [ref=e756] [cursor=pointer]
+            - generic [ref=e762]:
+              - generic [ref=e763]:
+                - text: Headlines ·
+                - emphasis [ref=e764]: Dodgers visit White House to celebrate back-to-back World Series titles
+                - text: · Status of Dodgers' 4 aces to dictate Trade Deadline strategy · Stream Dodgers ...
+              - link "Read more" [ref=e765] [cursor=pointer]:
+                - /url: https://www.mlb.com/dodgers/#:~:text=Headlines&text=Dodgers%20visit%20White%20House%20to,celebrate%20back%2Dto%2Dback%20World%20Series%20titles&text=Status%20of%20Dodgers'%204%20aces,to%20dictate%20Trade%20Deadline%20strategy&text=Stream%20Dodgers%20games%20through%20the,MLB%20App
+        - generic [ref=e769]:
+          - generic [ref=e772]:
+            - link "Los Angeles Dodgers - NewsNow newsnow.com https://www.newsnow.com › Sports › MLB › NL West" [ref=e774] [cursor=pointer]:
+              - /url: https://www.newsnow.com/us/Sports/MLB/NL+West/Los+Angeles+Dodgers
+              - heading "Los Angeles Dodgers - NewsNow" [level=3] [ref=e775]
+              - generic [ref=e781]:
+                - generic [ref=e782]: newsnow.com
+                - generic [ref=e784]: https://www.newsnow.com › Sports › MLB › NL West
+            - button "About this result" [ref=e788] [cursor=pointer]
+          - generic [ref=e795]:
+            - emphasis [ref=e796]: Latest news
+            - text: on the Los Angeles
+            - emphasis [ref=e797]: Dodgers
+            - text: ", a professional baseball team."
+            - emphasis [ref=e798]: Dodgers
+            - text: earn envious 'industry favorite' label in Tarik
+      - generic [ref=e800]:
+        - generic [ref=e805]:
+          - heading "People also search for" [level=2] [ref=e807]
+          - generic [ref=e809]:
+            - generic [ref=e810]:
+              - link "Dodgers news latest rumors" [ref=e814] [cursor=pointer]:
+                - /url: /search?sca_esv=3ec428b44c56173e&q=Dodgers+news+latest+rumors&sa=X&ved=2ahUKEwjCiYDjseqVAxXpNEQIHVzoGn4Q1QJ6BAgkEAE
+              - link "Dodgers news latest trade" [ref=e828] [cursor=pointer]:
+                - /url: /search?sca_esv=3ec428b44c56173e&q=Dodgers+news+latest+trade&sa=X&ved=2ahUKEwjCiYDjseqVAxXpNEQIHVzoGn4Q1QJ6BAhCEAE
+              - link "Dodgers news and rumors today" [ref=e842] [cursor=pointer]:
+                - /url: /search?sca_esv=3ec428b44c56173e&q=Dodgers+news+and+rumors+today&sa=X&ved=2ahUKEwjCiYDjseqVAxXpNEQIHVzoGn4Q1QJ6BAg7EAE
+              - link "Dodgers news Bellinger" [ref=e856] [cursor=pointer]:
+                - /url: /search?sca_esv=3ec428b44c56173e&q=Dodgers+news+Bellinger&sa=X&ved=2ahUKEwjCiYDjseqVAxXpNEQIHVzoGn4Q1QJ6BAg0EAE
+            - generic [ref=e867]:
+              - link "Dodgers rumors trade breaking news" [ref=e871] [cursor=pointer]:
+                - /url: /search?sca_esv=3ec428b44c56173e&q=Dodgers+rumors+trade+breaking+news&sa=X&ved=2ahUKEwjCiYDjseqVAxXpNEQIHVzoGn4Q1QJ6BAgvEAE
+              - link "Dodgers news trade today" [ref=e885] [cursor=pointer]:
+                - /url: /search?sca_esv=3ec428b44c56173e&q=Dodgers+news+trade+today&sa=X&ved=2ahUKEwjCiYDjseqVAxXpNEQIHVzoGn4Q1QJ6BAguEAE
+              - link "Dodgers rumors trade breaking news today ESPN" [ref=e899] [cursor=pointer]:
+                - /url: /search?sca_esv=3ec428b44c56173e&q=Dodgers+rumors+trade+breaking+news+today+ESPN&sa=X&ved=2ahUKEwjCiYDjseqVAxXpNEQIHVzoGn4Q1QJ6BAgsEAE
+              - link "Dodgers news ESPN" [ref=e913] [cursor=pointer]:
+                - /url: /search?sca_esv=3ec428b44c56173e&q=Dodgers+news+ESPN&sa=X&ved=2ahUKEwjCiYDjseqVAxXpNEQIHVzoGn4Q1QJ6BAgoEAE
+        - navigation [ref=e924]:
+          - heading "Page Navigation" [level=1] [ref=e925]
+          - text: "1"
+          - link "Page 2" [ref=e928] [cursor=pointer]:
+            - /url: /search?q=Dodgers+news+latest&sca_esv=3ec428b44c56173e&ei=St5iasK8DenpkPIP3NDr8Ac&start=10&sa=N&sstk=AU9db-CypmUPGUXff2btVEzRk9fQdpftkYLQ3qAlqfQtBZR51UTDV2q6IlmFaL1c3ZJAK76XXNdwQZrRjK0QAaqHwpEJKCOtM5FKvQ&ved=2ahUKEwjCiYDjseqVAxXpNEQIHVzoGn4Q8tMDegQIRBAE
+            - text: "2"
+          - link "Page 3" [ref=e930] [cursor=pointer]:
+            - /url: /search?q=Dodgers+news+latest&sca_esv=3ec428b44c56173e&ei=St5iasK8DenpkPIP3NDr8Ac&start=20&sa=N&sstk=AU9db-CypmUPGUXff2btVEzRk9fQdpftkYLQ3qAlqfQtBZR51UTDV2q6IlmFaL1c3ZJAK76XXNdwQZrRjK0QAaqHwpEJKCOtM5FKvQ&ved=2ahUKEwjCiYDjseqVAxXpNEQIHVzoGn4Q8tMDegQIRBAG
+            - text: "3"
+          - link "Page 4" [ref=e932] [cursor=pointer]:
+            - /url: /search?q=Dodgers+news+latest&sca_esv=3ec428b44c56173e&ei=St5iasK8DenpkPIP3NDr8Ac&start=30&sa=N&sstk=AU9db-CypmUPGUXff2btVEzRk9fQdpftkYLQ3qAlqfQtBZR51UTDV2q6IlmFaL1c3ZJAK76XXNdwQZrRjK0QAaqHwpEJKCOtM5FKvQ&ved=2ahUKEwjCiYDjseqVAxXpNEQIHVzoGn4Q8tMDegQIRBAI
+            - text: "4"
+          - link "Page 5" [ref=e934] [cursor=pointer]:
+            - /url: /search?q=Dodgers+news+latest&sca_esv=3ec428b44c56173e&ei=St5iasK8DenpkPIP3NDr8Ac&start=40&sa=N&sstk=AU9db-CypmUPGUXff2btVEzRk9fQdpftkYLQ3qAlqfQtBZR51UTDV2q6IlmFaL1c3ZJAK76XXNdwQZrRjK0QAaqHwpEJKCOtM5FKvQ&ved=2ahUKEwjCiYDjseqVAxXpNEQIHVzoGn4Q8tMDegQIRBAK
+            - text: "5"
+          - link "Page 6" [ref=e936] [cursor=pointer]:
+            - /url: /search?q=Dodgers+news+latest&sca_esv=3ec428b44c56173e&ei=St5iasK8DenpkPIP3NDr8Ac&start=50&sa=N&sstk=AU9db-CypmUPGUXff2btVEzRk9fQdpftkYLQ3qAlqfQtBZR51UTDV2q6IlmFaL1c3ZJAK76XXNdwQZrRjK0QAaqHwpEJKCOtM5FKvQ&ved=2ahUKEwjCiYDjseqVAxXpNEQIHVzoGn4Q8tMDegQIRBAM
+            - text: "6"
+          - link "Page 7" [ref=e938] [cursor=pointer]:
+            - /url: /search?q=Dodgers+news+latest&sca_esv=3ec428b44c56173e&ei=St5iasK8DenpkPIP3NDr8Ac&start=60&sa=N&sstk=AU9db-CypmUPGUXff2btVEzRk9fQdpftkYLQ3qAlqfQtBZR51UTDV2q6IlmFaL1c3ZJAK76XXNdwQZrRjK0QAaqHwpEJKCOtM5FKvQ&ved=2ahUKEwjCiYDjseqVAxXpNEQIHVzoGn4Q8tMDegQIRBAO
+            - text: "7"
+          - link "Page 8" [ref=e940] [cursor=pointer]:
+            - /url: /search?q=Dodgers+news+latest&sca_esv=3ec428b44c56173e&ei=St5iasK8DenpkPIP3NDr8Ac&start=70&sa=N&sstk=AU9db-CypmUPGUXff2btVEzRk9fQdpftkYLQ3qAlqfQtBZR51UTDV2q6IlmFaL1c3ZJAK76XXNdwQZrRjK0QAaqHwpEJKCOtM5FKvQ&ved=2ahUKEwjCiYDjseqVAxXpNEQIHVzoGn4Q8tMDegQIRBAQ
+            - text: "8"
+          - link "Page 9" [ref=e942] [cursor=pointer]:
+            - /url: /search?q=Dodgers+news+latest&sca_esv=3ec428b44c56173e&ei=St5iasK8DenpkPIP3NDr8Ac&start=80&sa=N&sstk=AU9db-CypmUPGUXff2btVEzRk9fQdpftkYLQ3qAlqfQtBZR51UTDV2q6IlmFaL1c3ZJAK76XXNdwQZrRjK0QAaqHwpEJKCOtM5FKvQ&ved=2ahUKEwjCiYDjseqVAxXpNEQIHVzoGn4Q8tMDegQIRBAS
+            - text: "9"
+          - link "Page 10" [ref=e944] [cursor=pointer]:
+            - /url: /search?q=Dodgers+news+latest&sca_esv=3ec428b44c56173e&ei=St5iasK8DenpkPIP3NDr8Ac&start=90&sa=N&sstk=AU9db-CypmUPGUXff2btVEzRk9fQdpftkYLQ3qAlqfQtBZR51UTDV2q6IlmFaL1c3ZJAK76XXNdwQZrRjK0QAaqHwpEJKCOtM5FKvQ&ved=2ahUKEwjCiYDjseqVAxXpNEQIHVzoGn4Q8tMDegQIRBAU
+            - text: "10"
+          - heading [level=2] [ref=e946]:
+            - link "Next" [ref=e947] [cursor=pointer]:
+              - /url: /search?q=Dodgers+news+latest&sca_esv=3ec428b44c56173e&ei=St5iasK8DenpkPIP3NDr8Ac&start=10&sa=N&sstk=AU9db-CypmUPGUXff2btVEzRk9fQdpftkYLQ3qAlqfQtBZR51UTDV2q6IlmFaL1c3ZJAK76XXNdwQZrRjK0QAaqHwpEJKCOtM5FKvQ&ved=2ahUKEwjCiYDjseqVAxXpNEQIHVzoGn4Q8NMDegQIRBAW
+      - navigation
+    - contentinfo [ref=e950]:
+      - heading "Footer Links" [level=1] [ref=e951]
+      - generic [ref=e955]:
+        - generic [ref=e959]:
+          - button "92105, San Diego, CA - From your IP address" [ref=e961] [cursor=pointer]:
+            - generic [ref=e962]: 92105, San Diego, CA
+            - generic [ref=e964]:
+              - text: "-"
+              - generic [ref=e965]: From your IP address
+          - text: "-"
+          - button "Update location" [ref=e967] [cursor=pointer]
+        - generic [ref=e970]:
+          - link "Help" [ref=e971] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1
+          - link "Send feedback" [ref=e972] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e973] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en&fg=1
+          - link "Terms" [ref=e974] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en&fg=1

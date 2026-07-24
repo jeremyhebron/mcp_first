@@ -1,0 +1,237 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en
+  - generic [ref=e6]:
+    - search [ref=e7]:
+      - generic [ref=e10]:
+        - link [ref=e11] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&ictx=0&sa=X&ved=0ahUKEwjEmcLwr-qVAxUhLUQIHUQbJAIQpYkNCAk
+          - img "Go to Google home" [ref=e12]
+        - generic [ref=e17]:
+          - combobox "Search" [ref=e20]: Dodgers news Dodgers news
+          - generic [ref=e21]:
+            - button "Clear" [ref=e23] [cursor=pointer]
+            - button "Search by voice" [ref=e29] [cursor=pointer]
+        - button "Google Search" [ref=e32] [cursor=pointer]
+    - generic [ref=e37]:
+      - button "Settings" [ref=e39] [cursor=pointer]
+      - generic [ref=e45]:
+        - button "Google apps" [ref=e47] [cursor=pointer]
+        - link "Sign in" [ref=e52] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3DDodgers%2Bnews%26tbm%3Dnws&ec=futura_srp_og_si_72236_p
+  - generic [ref=e54]:
+    - navigation [ref=e60]:
+      - generic [ref=e66]:
+        - list [ref=e67]:
+          - listitem [ref=e68]:
+            - link "AI Mode" [ref=e71] [cursor=pointer]:
+              - /url: /search?q=Dodgers+news&sca_esv=00b888171813a75e&udm=50&aep=1&ntc=1&cs=0&sa=X&ved=2ahUKEwjEmcLwr-qVAxUhLUQIHUQbJAIQ2J8OegQIBBAD
+          - listitem [ref=e75]:
+            - link "All" [ref=e76] [cursor=pointer]:
+              - /url: /search?q=Dodgers+news&sca_esv=00b888171813a75e&source=lnms&sa=X&ved=2ahUKEwjEmcLwr-qVAxUhLUQIHUQbJAIQ0pQJegQIBBAF
+          - listitem [ref=e79]:
+            - link "Images" [ref=e80] [cursor=pointer]:
+              - /url: /search?q=Dodgers+news&sca_esv=00b888171813a75e&udm=2&source=lnms&sa=X&ved=2ahUKEwjEmcLwr-qVAxUhLUQIHUQbJAIQ0pQJegQIBBAH
+          - listitem [ref=e83]:
+            - link "Videos" [ref=e84] [cursor=pointer]:
+              - /url: /search?q=Dodgers+news&sca_esv=00b888171813a75e&udm=7&source=lnms&sa=X&ved=2ahUKEwjEmcLwr-qVAxUhLUQIHUQbJAIQ0pQJegQIBBAJ
+          - listitem [ref=e87]:
+            - link "News" [disabled] [ref=e88]
+          - listitem [ref=e91]:
+            - link "Shopping" [ref=e92] [cursor=pointer]:
+              - /url: /search?q=Dodgers+news&sca_esv=00b888171813a75e&udm=28&source=lnms&ved=1t:200715&ictx=111
+          - listitem [ref=e95]:
+            - link "Books" [ref=e96] [cursor=pointer]:
+              - /url: /search?q=Dodgers+news&sca_esv=00b888171813a75e&udm=36&source=lnms&sa=X&ved=2ahUKEwjEmcLwr-qVAxUhLUQIHUQbJAIQ0pQJegQIBBAP
+          - listitem [ref=e99]:
+            - button [ref=e100] [cursor=pointer]:
+              - generic "More filters" [ref=e101]: More
+        - button "Tools" [ref=e108] [cursor=pointer]
+    - heading "Search Results" [level=1] [ref=e115]
+    - navigation
+    - main [ref=e121]:
+      - generic [ref=e127]:
+        - generic [ref=e128]:
+          - heading "Donald Trump hosts Los Angeles Dodgers at the White House" [level=2] [ref=e131]
+          - generic [ref=e135]:
+            - generic [ref=e136]:
+              - link "Fox News Trump likens Shohei Ohtani to Babe Ruth as the World Series champion Dodgers visit White House 5 hours ago" [ref=e139] [cursor=pointer]:
+                - /url: https://www.foxnews.com/sports/trump-likens-shohei-ohtani-babe-ruth-world-series-champion-dodgers-visit-white-house
+                - generic [ref=e144]:
+                  - generic [ref=e145]: Fox News
+                  - heading "Trump likens Shohei Ohtani to Babe Ruth as the World Series champion Dodgers visit White House" [level=3] [ref=e149]
+                  - generic: 5 hours ago
+              - link "Yahoo Sports Donald Trump wouldn’t be surprised to see Dodgers at White House again next year 20 minutes ago" [ref=e155] [cursor=pointer]:
+                - /url: https://sports.yahoo.com/articles/donald-trump-wouldn-t-surprised-224532380.html
+                - generic [ref=e160]:
+                  - generic [ref=e161]: Yahoo Sports
+                  - heading "Donald Trump wouldn’t be surprised to see Dodgers at White House again next year" [level=3] [ref=e165]
+                  - generic: 20 minutes ago
+            - generic [ref=e168]:
+              - link "MLB.com Dodgers visit White House to celebrate back-to-back World Series titles 1 hour ago" [ref=e171] [cursor=pointer]:
+                - /url: https://www.mlb.com/news/dodgers-visit-white-house-to-celebrate-2025-world-series-championship
+                - generic [ref=e176]:
+                  - generic [ref=e177]: MLB.com
+                  - heading "Dodgers visit White House to celebrate back-to-back World Series titles" [level=3] [ref=e181]
+                  - generic: 1 hour ago
+              - link "The Guardian Trump hosts champion Dodgers at White House as some players stay away 5 hours ago" [ref=e186] [cursor=pointer]:
+                - /url: https://www.theguardian.com/sport/2026/jul/23/dodgers-white-house-visit-donald-trump
+                - generic [ref=e191]:
+                  - generic [ref=e192]: The Guardian
+                  - heading "Trump hosts champion Dodgers at White House as some players stay away" [level=3] [ref=e196]
+                  - generic: 5 hours ago
+          - link "View full coverage" [ref=e200] [cursor=pointer]:
+            - /url: https://www.google.com/search?q=Dodgers+news&sca_esv=00b888171813a75e&tbm=nws&story=GjsSOURvbmFsZCBUcnVtcCBob3N0cyBMb3MgQW5nZWxlcyBEb2RnZXJzIGF0IHRoZSBXaGl0ZSBIb3VzZTIvCiXX0uK7uIvEuRvsvff7iLuMqCqD686S_Jf1l2fAgerfipWugtsBEKbb6NERGAVyAhAC&fcs=AF4cvB6LDj1beDRyGicwcMtOGznBAnNwIQ&sa=X&ved=2ahUKEwjEmcLwr-qVAxUhLUQIHUQbJAIQ7IUHegQIGRAE
+            - separator [ref=e201]
+        - link "Yahoo Sports Dodgers Announce Starting Pitchers for Series vs New York Mets The Los Angeles Dodgers and New York Mets are getting set for a three-game series. Here are the pitching matchups and how to watch the... . 6 hours ago" [ref=e210] [cursor=pointer]:
+          - /url: https://sports.yahoo.com/articles/dodgers-announce-starting-pitchers-series-215303262.html
+          - generic [ref=e215]:
+            - generic [ref=e216]: Yahoo Sports
+            - heading "Dodgers Announce Starting Pitchers for Series vs New York Mets" [level=3] [ref=e220]
+            - generic [ref=e221]: The Los Angeles Dodgers and New York Mets are getting set for a three-game series. Here are the pitching matchups and how to watch the...
+            - generic [ref=e222]: .
+            - generic: 6 hours ago
+        - generic [ref=e224]:
+          - heading "Philadelphia Phillies commit baserunning errors against Dodgers" [level=2] [ref=e227]
+          - generic [ref=e231]:
+            - generic [ref=e232]:
+              - link "True Blue LA Max Muncy plays hero again, Dodgers top Phillies 9-5 1 day ago" [ref=e235] [cursor=pointer]:
+                - /url: https://www.truebluela.com/dodgers-scores-standings/120275/dodgers-phillies-game-recap
+                - generic [ref=e240]:
+                  - generic [ref=e241]: True Blue LA
+                  - heading "Max Muncy plays hero again, Dodgers top Phillies 9-5" [level=3] [ref=e245]
+                  - generic: 1 day ago
+              - link "Yahoo Sports Los Angeles Dodgers Quietly Released 7-Year MLB Player During Phillies Series 1 day ago" [ref=e251] [cursor=pointer]:
+                - /url: https://sports.yahoo.com/articles/los-angeles-dodgers-quietly-released-193912432.html
+                - generic [ref=e256]:
+                  - generic [ref=e257]: Yahoo Sports
+                  - heading "Los Angeles Dodgers Quietly Released 7-Year MLB Player During Phillies Series" [level=3] [ref=e261]
+                  - generic: 1 day ago
+            - generic [ref=e264]:
+              - link "NBC Sports Philadelphia Takeaways as Dodgers give Phillies a wake-up call, little things pile up 1 day ago" [ref=e267] [cursor=pointer]:
+                - /url: https://www.nbcsportsphiladelphia.com/mlb/philadelphia-phillies/dodgers-aaron-nola-bryson-stott-takeaways/743429/
+                - generic [ref=e272]:
+                  - generic [ref=e273]: NBC Sports Philadelphia
+                  - heading "Takeaways as Dodgers give Phillies a wake-up call, little things pile up" [level=3] [ref=e277]
+                  - generic: 1 day ago
+              - link "MLB.com Rushing (HR, 3 RBIs) making most of everyday catcher's role in Smith's absence 24 hours ago" [ref=e282] [cursor=pointer]:
+                - /url: https://www.mlb.com/news/dalton-rushing-leads-dodgers-to-series-win-over-phillies
+                - generic [ref=e287]:
+                  - generic [ref=e288]: MLB.com
+                  - heading "Rushing (HR, 3 RBIs) making most of everyday catcher's role in Smith's absence" [level=3] [ref=e292]
+                  - generic: 24 hours ago
+        - link "USA Today Should Dodgers be worried about Shohei Ohtani's knee? Experts weigh in Two orthopedic surgeons and an expert in pitching mechanics spoke to USA TODAY Sports about the lingering knee issues of Dodgers star Shohei... . 4 hours ago" [ref=e298] [cursor=pointer]:
+          - /url: https://www.usatoday.com/story/sports/mlb/dodgers/2026/07/23/shohei-ohtani-injury-update-dodgers-knee-experts/91021399007/
+          - generic [ref=e303]:
+            - generic [ref=e304]: USA Today
+            - heading "Should Dodgers be worried about Shohei Ohtani's knee? Experts weigh in" [level=3] [ref=e308]
+            - generic [ref=e309]: Two orthopedic surgeons and an expert in pitching mechanics spoke to USA TODAY Sports about the lingering knee issues of Dodgers star Shohei...
+            - generic [ref=e310]: .
+            - generic: 4 hours ago
+        - link "True Blue LA Dodgers games at Cubs, Braves added to TBS schedule Dodgers games on August 4 at the Cubs and August 25 at the Braves will be televised nationally by TBS, making six total road games on the... . 6 hours ago" [ref=e315] [cursor=pointer]:
+          - /url: https://www.truebluela.com/los-angeles-dodgers-television-media/120302/dodgers-cubs-braves-tbs-tv
+          - generic [ref=e320]:
+            - generic [ref=e321]: True Blue LA
+            - heading "Dodgers games at Cubs, Braves added to TBS schedule" [level=3] [ref=e325]
+            - generic [ref=e326]: Dodgers games on August 4 at the Cubs and August 25 at the Braves will be televised nationally by TBS, making six total road games on the...
+            - generic [ref=e327]: .
+            - generic: 6 hours ago
+        - link "New York Daily News Edwin Diaz to barely miss Mets reunion this weekend as Dodgers star’s rehab continues Edwin Diaz's return to the Citi Field mound will have to wait. . 7 hours ago" [ref=e332] [cursor=pointer]:
+          - /url: https://www.nydailynews.com/2026/07/23/edwin-diaz-mets-dodgers-kyle-tucker-shohei-ohtani/
+          - generic [ref=e337]:
+            - generic [ref=e338]: New York Daily News
+            - heading "Edwin Diaz to barely miss Mets reunion this weekend as Dodgers star’s rehab continues" [level=3] [ref=e342]
+            - generic [ref=e343]: Edwin Diaz's return to the Citi Field mound will have to wait.
+            - generic [ref=e344]: .
+            - generic: 7 hours ago
+        - link "Los Angeles Times Red Sox rise revives interim manager Chad Tracy's memories of his dad's days with the Dodgers, Rockies Former Dodgers manager Jim Tracy is justifiably proud of his son Chad's success as interim manager of the Boston Red Sox. . 9 hours ago" [ref=e349] [cursor=pointer]:
+          - /url: https://www.latimes.com/sports/story/2026-07-23/chad-tracy-record-red-sox-win-streak-mirrors-dad-jim-tracy-rockies-dodgers
+          - generic [ref=e354]:
+            - generic [ref=e355]: Los Angeles Times
+            - heading "Red Sox rise revives interim manager Chad Tracy's memories of his dad's days with the Dodgers, Rockies" [level=3] [ref=e359]
+            - generic [ref=e360]: Former Dodgers manager Jim Tracy is justifiably proud of his son Chad's success as interim manager of the Boston Red Sox.
+            - generic [ref=e361]: .
+            - generic: 9 hours ago
+        - 'link "DodgersBeat Dodgers News: Dodgers Sign Top Draft Pick Bo Lowrance, Reveal Remaining Bonus Pool Before Signing Deadline The Dodgers have signed first-round pick Bo Lowrance to an over-slot bonus. Here''s how much bonus pool money Los Angeles has left before the... . 1 day ago" [ref=e366] [cursor=pointer]':
+          - /url: https://dodgersbeat.com/dodgers-sign-bo-lowrance-remaining-bonus-pool-2026-mlb-draft/
+          - generic [ref=e371]:
+            - generic [ref=e372]: DodgersBeat
+            - 'heading "Dodgers News: Dodgers Sign Top Draft Pick Bo Lowrance, Reveal Remaining Bonus Pool Before Signing Deadline" [level=3] [ref=e376]'
+            - generic [ref=e377]: The Dodgers have signed first-round pick Bo Lowrance to an over-slot bonus. Here's how much bonus pool money Los Angeles has left before the...
+            - generic [ref=e378]: .
+            - generic: 1 day ago
+        - link "Dodgers Nation Jeff Passan’s New Dodgers Trade Report Contradicts Dave Roberts ESPN's Jeff Passan reported the Los Angeles Dodgers as aggressive buyers at the deadline, contradicting manager Dave Roberts. . 1 day ago" [ref=e383] [cursor=pointer]:
+          - /url: https://dodgersnation.com/jeff-passans-new-dodgers-trade-report-contradicts-dave-roberts/2026/07/22/
+          - generic [ref=e388]:
+            - generic [ref=e389]: Dodgers Nation
+            - heading "Jeff Passan’s New Dodgers Trade Report Contradicts Dave Roberts" [level=3] [ref=e393]
+            - generic [ref=e394]: ESPN's Jeff Passan reported the Los Angeles Dodgers as aggressive buyers at the deadline, contradicting manager Dave Roberts.
+            - generic [ref=e395]: .
+            - generic: 1 day ago
+        - 'link "Purple Row Colorado Rockies News: Rockies GM Josh Byrnes discusses recent Dodgers trade Colorado Rockies news and links for Tuesday, July 21, 2026. . 2 days ago" [ref=e400] [cursor=pointer]':
+          - /url: https://www.purplerow.com/colorado-rockies-news/96009/josh-byrnes-discusses-rockies-trade-with-rdodgers
+          - generic [ref=e405]:
+            - generic [ref=e406]: Purple Row
+            - 'heading "Colorado Rockies News: Rockies GM Josh Byrnes discusses recent Dodgers trade" [level=3] [ref=e410]'
+            - generic [ref=e411]: Colorado Rockies news and links for Tuesday, July 21, 2026.
+            - generic [ref=e412]: .
+            - generic: 2 days ago
+      - navigation [ref=e416]:
+        - heading "Page Navigation" [level=1] [ref=e417]
+        - text: "1"
+        - link "Page 2" [ref=e420] [cursor=pointer]:
+          - /url: /search?q=Dodgers+news&sca_esv=00b888171813a75e&tbm=nws&ei=TdxiaoS_KqHakPIPxLaQEQ&start=10&sa=N&ved=2ahUKEwjEmcLwr-qVAxUhLUQIHUQbJAIQ8tMDegQIJRAE
+          - text: "2"
+        - link "Page 3" [ref=e422] [cursor=pointer]:
+          - /url: /search?q=Dodgers+news&sca_esv=00b888171813a75e&tbm=nws&ei=TdxiaoS_KqHakPIPxLaQEQ&start=20&sa=N&ved=2ahUKEwjEmcLwr-qVAxUhLUQIHUQbJAIQ8tMDegQIJRAG
+          - text: "3"
+        - link "Page 4" [ref=e424] [cursor=pointer]:
+          - /url: /search?q=Dodgers+news&sca_esv=00b888171813a75e&tbm=nws&ei=TdxiaoS_KqHakPIPxLaQEQ&start=30&sa=N&ved=2ahUKEwjEmcLwr-qVAxUhLUQIHUQbJAIQ8tMDegQIJRAI
+          - text: "4"
+        - link "Page 5" [ref=e426] [cursor=pointer]:
+          - /url: /search?q=Dodgers+news&sca_esv=00b888171813a75e&tbm=nws&ei=TdxiaoS_KqHakPIPxLaQEQ&start=40&sa=N&ved=2ahUKEwjEmcLwr-qVAxUhLUQIHUQbJAIQ8tMDegQIJRAK
+          - text: "5"
+        - link "Page 6" [ref=e428] [cursor=pointer]:
+          - /url: /search?q=Dodgers+news&sca_esv=00b888171813a75e&tbm=nws&ei=TdxiaoS_KqHakPIPxLaQEQ&start=50&sa=N&ved=2ahUKEwjEmcLwr-qVAxUhLUQIHUQbJAIQ8tMDegQIJRAM
+          - text: "6"
+        - link "Page 7" [ref=e430] [cursor=pointer]:
+          - /url: /search?q=Dodgers+news&sca_esv=00b888171813a75e&tbm=nws&ei=TdxiaoS_KqHakPIPxLaQEQ&start=60&sa=N&ved=2ahUKEwjEmcLwr-qVAxUhLUQIHUQbJAIQ8tMDegQIJRAO
+          - text: "7"
+        - link "Page 8" [ref=e432] [cursor=pointer]:
+          - /url: /search?q=Dodgers+news&sca_esv=00b888171813a75e&tbm=nws&ei=TdxiaoS_KqHakPIPxLaQEQ&start=70&sa=N&ved=2ahUKEwjEmcLwr-qVAxUhLUQIHUQbJAIQ8tMDegQIJRAQ
+          - text: "8"
+        - link "Page 9" [ref=e434] [cursor=pointer]:
+          - /url: /search?q=Dodgers+news&sca_esv=00b888171813a75e&tbm=nws&ei=TdxiaoS_KqHakPIPxLaQEQ&start=80&sa=N&ved=2ahUKEwjEmcLwr-qVAxUhLUQIHUQbJAIQ8tMDegQIJRAS
+          - text: "9"
+        - link "Page 10" [ref=e436] [cursor=pointer]:
+          - /url: /search?q=Dodgers+news&sca_esv=00b888171813a75e&tbm=nws&ei=TdxiaoS_KqHakPIPxLaQEQ&start=90&sa=N&ved=2ahUKEwjEmcLwr-qVAxUhLUQIHUQbJAIQ8tMDegQIJRAU
+          - text: "10"
+        - heading [level=2] [ref=e438]:
+          - link "Next" [ref=e439] [cursor=pointer]:
+            - /url: /search?q=Dodgers+news&sca_esv=00b888171813a75e&tbm=nws&ei=TdxiaoS_KqHakPIPxLaQEQ&start=10&sa=N&ved=2ahUKEwjEmcLwr-qVAxUhLUQIHUQbJAIQ8NMDegQIJRAW
+      - navigation
+    - contentinfo [ref=e442]:
+      - heading "Footer Links" [level=1] [ref=e443]
+      - generic [ref=e447]:
+        - generic [ref=e451]:
+          - button "92105, San Diego, CA - From your IP address" [ref=e453] [cursor=pointer]:
+            - generic [ref=e454]: 92105, San Diego, CA
+            - generic [ref=e456]:
+              - text: "-"
+              - generic [ref=e457]: From your IP address
+          - text: "-"
+          - button "Update location" [ref=e459] [cursor=pointer]
+        - generic [ref=e462]:
+          - link "Help" [ref=e463] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1
+          - link "How News Works" [ref=e464] [cursor=pointer]:
+            - /url: https://newsinitiative.withgoogle.com/hownewsworks/?fg=1
+          - link "Send feedback" [ref=e465] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e466] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en&fg=1
+          - link "Terms" [ref=e467] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en&fg=1

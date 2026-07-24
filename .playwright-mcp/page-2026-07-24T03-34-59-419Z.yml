@@ -1,0 +1,616 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en
+  - generic [ref=e8]:
+    - search [ref=e9]:
+      - generic [ref=e12]:
+        - link [ref=e13] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&ictx=0&sa=X&ved=0ahUKEwjmwPjysOqVAxWXJEQIHW64IiwQpYkNCAo
+          - img "Go to Google home" [ref=e14]
+        - generic [ref=e19]:
+          - combobox "Search" [ref=e22]: Dodgers news Dodgers news
+          - generic [ref=e23]:
+            - button "Clear" [ref=e25] [cursor=pointer]
+            - generic [ref=e30]:
+              - button "Search by voice" [ref=e31] [cursor=pointer]
+              - button "Search by image" [ref=e34] [cursor=pointer]
+        - button "Search" [ref=e37] [cursor=pointer]
+    - generic [ref=e42]:
+      - button "Settings" [ref=e44] [cursor=pointer]
+      - button "Share" [ref=e50] [cursor=pointer]
+      - generic [ref=e56]:
+        - button "Google apps" [ref=e58] [cursor=pointer]
+        - link "Sign in" [ref=e63] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3DDodgers%2Bnews&ec=futura_srp_og_si_72236_p
+  - generic [ref=e65]:
+    - navigation [ref=e71]:
+      - generic [ref=e77]:
+        - list [ref=e78]:
+          - listitem [ref=e79]:
+            - link "AI Mode" [ref=e82] [cursor=pointer]:
+              - /url: /search?q=Dodgers+news&sca_esv=3ec428b44c56173e&udm=50&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cY2oODYyTyZk24Xz37_7FQ6NVv6xh17vQ5j3mFWMF5-wiMcj71_PDlJTBGubUtsVjA0JxwzmAMqcyDE4ZtNP7LjugDypiC8OKcTXE4BtBKK5PVNNY3HXfS8TH0i19iP67dtTu51ZxoDInefXRyVAbJTtnSDhURcfhQsVxmBxcdFH2t1-bLZJFZr34YJSc4diyRqw3RQ&aep=1&ntc=1&cs=0&sa=X&ved=2ahUKEwjmwPjysOqVAxWXJEQIHW64IiwQ2J8OegQIDxAD
+          - listitem [ref=e86]:
+            - link "All" [disabled] [ref=e87]
+          - listitem [ref=e90]:
+            - link "News" [ref=e91] [cursor=pointer]:
+              - /url: /search?sca_esv=3ec428b44c56173e&q=Dodgers+news&tbm=nws&source=lnms&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cY2oODYyTyZk24Xz37_7FQ6NVv6xh17vQ5j3mFWMF5-wiMcj71_PDlJTBGubUtsVjA0JxwzmAMqcyDE4ZtNP7LjugDypiC8OKcTXE4BtBKK5PVNNY3HXfS8TH0i19iP67dtTu51ZxoDInefXRyVAbJTtnSDhURcfhQsVxmBxcdFH2t1-bLZJFZr34YJSc4diyRqw3RQ&sa=X&ved=2ahUKEwjmwPjysOqVAxWXJEQIHW64IiwQ0pQJegQIFBAB
+          - listitem [ref=e94]:
+            - link "Videos" [ref=e95] [cursor=pointer]:
+              - /url: /search?sca_esv=3ec428b44c56173e&udm=7&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cY2oODYyTyZk24Xz37_7FQ6NVv6xh17vQ5j3mFWMF5-wiMcj71_PDlJTBGubUtsVjA0JxwzmAMqcyDE4ZtNP7LjugDypiC8OKcTXE4BtBKK5PVNNY3HXfS8TH0i19iP67dtTu51ZxoDInefXRyVAbJTtnSDhURcfhQsVxmBxcdFH2t1-bLZJFZr34YJSc4diyRqw3RQ&q=Dodgers+news&sa=X&ved=2ahUKEwjmwPjysOqVAxWXJEQIHW64IiwQtKgLegQIFRAB
+          - listitem [ref=e98]:
+            - link "Short videos" [ref=e99] [cursor=pointer]:
+              - /url: /search?sca_esv=3ec428b44c56173e&udm=39&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cY2oODYyTyZk24Xz37_7FQ6NVv6xh17vQ5j3mFWMF5-wiMcj71_PDlJTBGubUtsVjA0JxwzmAMqcyDE4ZtNP7LjugDypiC8OKcTXE4BtBKK5PVNNY3HXfS8TH0i19iP67dtTu51ZxoDInefXRyVAbJTtnSDhURcfhQsVxmBxcdFH2t1-bLZJFZr34YJSc4diyRqw3RQ&q=Dodgers+news&sa=X&ved=2ahUKEwjmwPjysOqVAxWXJEQIHW64IiwQs6gLegQIExAB
+          - listitem [ref=e102]:
+            - link "Images" [ref=e103] [cursor=pointer]:
+              - /url: /search?sca_esv=3ec428b44c56173e&udm=2&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cY2oODYyTyZk24Xz37_7FQ6NVv6xh17vQ5j3mFWMF5-wiMcj71_PDlJTBGubUtsVjA0JxwzmAMqcyDE4ZtNP7LjugDypiC8OKcTXE4BtBKK5PVNNY3HXfS8TH0i19iP67dtTu51ZxoDInefXRyVAbJTtnSDhURcfhQsVxmBxcdFH2t1-bLZJFZr34YJSc4diyRqw3RQ&q=Dodgers+news&sa=X&ved=2ahUKEwjmwPjysOqVAxWXJEQIHW64IiwQtKgLegQIERAB
+          - listitem [ref=e106]:
+            - link "Forums" [ref=e107] [cursor=pointer]:
+              - /url: /search?sca_esv=3ec428b44c56173e&udm=18&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cY2oODYyTyZk24Xz37_7FQ6NVv6xh17vQ5j3mFWMF5-wiMcj71_PDlJTBGubUtsVjA0JxwzmAMqcyDE4ZtNP7LjugDypiC8OKcTXE4BtBKK5PVNNY3HXfS8TH0i19iP67dtTu51ZxoDInefXRyVAbJTtnSDhURcfhQsVxmBxcdFH2t1-bLZJFZr34YJSc4diyRqw3RQ&q=Dodgers+news&sa=X&ved=2ahUKEwjmwPjysOqVAxWXJEQIHW64IiwQs6gLegQIEhAB
+          - listitem [ref=e110]:
+            - button [ref=e111] [cursor=pointer]:
+              - generic "More filters" [ref=e112]: More
+        - button "Tools" [ref=e119] [cursor=pointer]
+    - heading "Search Results" [level=1] [ref=e126]
+    - main [ref=e132]:
+      - generic [ref=e136]:
+        - generic [ref=e140]:
+          - generic [ref=e142]:
+            - heading "Top stories" [level=2] [ref=e144]
+            - link [ref=e148] [cursor=pointer]:
+              - /url: https://accounts.google.com/ServiceLogin?ec=oo-seaport-srp-sp-11135&continue=https://www.google.com/search?q%3DDodgers%2Bnews%26sca_esv%3D3ec428b44c56173e%26ptid%3D11135%26ptt%3D8%26fpts%3D1784864095500
+          - generic [ref=e154]:
+            - heading [level=2] [ref=e158]:
+              - link "Donald Trump hosts Los Angeles Dodgers at the White House" [ref=e159] [cursor=pointer]:
+                - /url: https://www.google.com/search?q=Dodgers+news&sca_esv=3ec428b44c56173e&tbm=nws&story=GjsSOURvbmFsZCBUcnVtcCBob3N0cyBMb3MgQW5nZWxlcyBEb2RnZXJzIGF0IHRoZSBXaGl0ZSBIb3VzZTIvCiWp2OWHp-fhyFbw1qGJveyb0IgB7L33-4i7jKgqg-vOkvyX9ZdnEKbb6NERGAVyAhAB&fcs=AF4cvB6cZDOZO2tTrG9-K5GLhsuFR6GTWQ&sa=X&ved=2ahUKEwjmwPjysOqVAxWXJEQIHW64IiwQjcEJegQIHRAD
+            - generic [ref=e166]:
+              - link "AP News About this result Trump fetes Dodgers at the White House again, saying the team is ‘one of the great brands’ 3 hours ago" [ref=e169] [cursor=pointer]:
+                - /url: https://apnews.com/article/trump-dodgers-white-house-visit-0daaeadffe276338e5d45ad77663fcb0
+                - generic [ref=e174]:
+                  - generic [ref=e176]:
+                    - generic [ref=e177]: AP News
+                    - button "About this result" [ref=e182]
+                  - heading "Trump fetes Dodgers at the White House again, saying the team is ‘one of the great brands’" [level=4] [ref=e185]
+                  - generic [ref=e186]: 3 hours ago
+              - generic [ref=e188]:
+                - 'link "Fox News About this result WATCH LIVE: President Trump hosts World Series Champion LA Dodgers at White House Video 8 hours ago" [ref=e191] [cursor=pointer]':
+                  - /url: https://www.foxnews.com/video/6401949676112
+                  - generic [ref=e197]:
+                    - generic [ref=e199]:
+                      - generic [ref=e200]: Fox News
+                      - button "About this result" [ref=e205]
+                    - 'heading "WATCH LIVE: President Trump hosts World Series Champion LA Dodgers at White House" [level=4] [ref=e208]'
+                    - generic [ref=e209]:
+                      - generic [ref=e210]: Video
+                      - text: 8 hours ago
+                - link "Yahoo Sports About this result Donald Trump wouldn’t be surprised to see Dodgers at White House again next year 24 minutes ago" [ref=e214] [cursor=pointer]:
+                  - /url: https://sports.yahoo.com/articles/donald-trump-wouldn-t-surprised-224532380.html
+                  - generic [ref=e219]:
+                    - generic [ref=e221]:
+                      - generic [ref=e222]: Yahoo Sports
+                      - button "About this result" [ref=e227]
+                    - heading "Donald Trump wouldn’t be surprised to see Dodgers at White House again next year" [level=4] [ref=e230]
+                    - generic: 24 minutes ago
+          - generic [ref=e232]:
+            - heading "Max Muncy hits go-ahead home run as Dodgers beat Phillies" [level=2] [ref=e236]
+            - generic [ref=e240]:
+              - link "NBC Sports Philadelphia About this result Takeaways as Dodgers give Phillies a wake-up call, little things pile up 1 day ago" [ref=e243] [cursor=pointer]:
+                - /url: https://www.nbcsportsphiladelphia.com/mlb/philadelphia-phillies/dodgers-aaron-nola-bryson-stott-takeaways/743429/
+                - generic [ref=e248]:
+                  - generic [ref=e250]:
+                    - generic [ref=e251]: NBC Sports Philadelphia
+                    - button "About this result" [ref=e256]
+                  - heading "Takeaways as Dodgers give Phillies a wake-up call, little things pile up" [level=4] [ref=e259]
+                  - generic: 1 day ago
+              - link "True Blue LA About this result Max Muncy plays hero again, Dodgers top Phillies 9-5 1 day ago" [ref=e264] [cursor=pointer]:
+                - /url: https://www.truebluela.com/dodgers-scores-standings/120275/dodgers-phillies-game-recap
+                - generic [ref=e269]:
+                  - generic [ref=e271]:
+                    - generic [ref=e272]: True Blue LA
+                    - button "About this result" [ref=e277]
+                  - heading "Max Muncy plays hero again, Dodgers top Phillies 9-5" [level=4] [ref=e280]
+                  - generic: 1 day ago
+          - link "More news" [ref=e283] [cursor=pointer]:
+            - /url: /search?sca_esv=3ec428b44c56173e&q=Dodgers+news&tbm=nws&source=univ&tbo=u&sa=X&ved=2ahUKEwjmwPjysOqVAxWXJEQIHW64IiwQt8YBKAJ6BAgYEAU
+            - separator [ref=e284]
+        - generic [ref=e293]:
+          - generic [ref=e295]:
+            - heading "What people are saying" [level=2] [ref=e296]
+            - generic [ref=e299]: Trending posts and discussions
+          - generic [ref=e310]:
+            - list [ref=e312]:
+              - generic [ref=e313]:
+                - listitem [ref=e314]:
+                  - generic [ref=e318]:
+                    - link "A Congressional Reception for the Champs. 🏆🏆 61.4K+ likes · 2 hours ago dodgers · Instagram Baseball team" [ref=e319] [cursor=pointer]:
+                      - /url: https://www.instagram.com/p/DbJSaMRoHzE/
+                      - generic [ref=e323]:
+                        - heading "A Congressional Reception for the Champs. 🏆🏆" [level=3] [ref=e325]
+                        - generic [ref=e326]: 61.4K+ likes · 2 hours ago
+                        - generic [ref=e338]:
+                          - generic [ref=e339]: dodgers · Instagram
+                          - generic [ref=e340]: Baseball team
+                    - button "About this result" [ref=e345] [cursor=pointer]
+                - listitem [ref=e350]:
+                  - generic [ref=e354]:
+                    - 'link "Back 2 Back World Champs being honored in moments. #Dodgers 2K+ likes · 7 hours ago THEREAL_DV · X Dodgers reporter for AM 570" [ref=e355] [cursor=pointer]':
+                      - /url: https://x.com/THEREAL_DV/status/2080388576261407171?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+                      - generic [ref=e359]:
+                        - 'heading "Back 2 Back World Champs being honored in moments. #Dodgers" [level=3] [ref=e361]'
+                        - generic [ref=e362]: 2K+ likes · 7 hours ago
+                        - generic [ref=e374]:
+                          - generic [ref=e375]: THEREAL_DV · X
+                          - generic [ref=e376]: Dodgers reporter for AM 570
+                    - button "About this result" [ref=e381] [cursor=pointer]
+                - listitem [ref=e386]:
+                  - generic [ref=e390]:
+                    - 'link "0:48 President Donald Trump praised Miguel Rojas’ dramatic game-tying home run in Game 7 of the Dodgers’ World Series victory over the Toronto Blue Jays, joking that after such a clutch moment, the team should probably give Rojas a raise. #dodgers #mlbhighlights 3.6K+ likes · 5 hours ago nbcla · Instagram Southern California news outlet" [ref=e391] [cursor=pointer]':
+                      - /url: https://www.instagram.com/reel/DbJwaTShCHv/
+                      - generic [ref=e392]: 0:48
+                      - generic [ref=e401]:
+                        - 'heading "President Donald Trump praised Miguel Rojas’ dramatic game-tying home run in Game 7 of the Dodgers’ World Series victory over the Toronto Blue Jays, joking that after such a clutch moment, the team should probably give Rojas a raise. #dodgers #mlbhighlights" [level=3] [ref=e403]'
+                        - generic [ref=e404]: 3.6K+ likes · 5 hours ago
+                        - generic [ref=e417]:
+                          - generic [ref=e418]: nbcla · Instagram
+                          - generic [ref=e419]: Southern California news outlet
+                    - button "About this result" [ref=e424] [cursor=pointer]
+                - listitem [ref=e429]:
+                  - generic [ref=e434]:
+                    - link "The Dodgers visited The White House today with their back-to-back World Series trophies 420+ likes · 5 hours ago JomboyMedia · X Baseball content creator" [ref=e435] [cursor=pointer]:
+                      - /url: https://x.com/JomboyMedia/status/2080427168459305091?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+                      - generic [ref=e439]:
+                        - heading "The Dodgers visited The White House today with their back-to-back World Series trophies" [level=3] [ref=e441]
+                        - generic [ref=e442]: 420+ likes · 5 hours ago
+                        - generic [ref=e454]:
+                          - generic [ref=e455]: JomboyMedia · X
+                          - generic [ref=e456]: Baseball content creator
+                    - button "About this result" [ref=e461] [cursor=pointer]
+                - listitem [ref=e466]:
+                  - generic [ref=e471]:
+                    - link "0:06 My genuine reaction if the Dodgers outbid other teams at the trade deadline for Tarik Skubal before the salary cap comes in next year 😂 Jersey swap via FOX 2.1K+ likes · 3 hours ago dodgersnation · Instagram Los Angeles Dodgers news outlet" [ref=e472] [cursor=pointer]:
+                      - /url: https://www.instagram.com/reel/DbJR3ApsXvm/
+                      - generic [ref=e473]: 0:06
+                      - generic [ref=e482]:
+                        - heading "My genuine reaction if the Dodgers outbid other teams at the trade deadline for Tarik Skubal before the salary cap comes in next year 😂 Jersey swap via FOX" [level=3] [ref=e484]
+                        - generic [ref=e485]: 2.1K+ likes · 3 hours ago
+                        - generic [ref=e498]:
+                          - generic [ref=e499]: dodgersnation · Instagram
+                          - generic [ref=e500]: Los Angeles Dodgers news outlet
+                    - button "About this result" [ref=e505] [cursor=pointer]
+                - listitem [ref=e510]:
+                  - generic [ref=e515]:
+                    - 'button "FULL EVENT: President Trump Celebrates the 2025 World Series Champion Dodgers - 07/23/26. Play on Google. 24:12" [ref=e520] [cursor=pointer]':
+                      - generic [ref=e521]: 24:12
+                    - 'link "FULL EVENT: President Trump Celebrates the 2025 World Series Champion Dodgers - 07/23/26 7.5K+ views · 6 hours ago Right Side Broadcasting Network · YouTube Trump rallies coverage" [ref=e535] [cursor=pointer]':
+                      - /url: https://www.youtube.com/watch?v=yOOh1Y7tih4
+                      - generic [ref=e536]:
+                        - 'heading "FULL EVENT: President Trump Celebrates the 2025 World Series Champion Dodgers - 07/23/26" [level=3] [ref=e538]'
+                        - generic [ref=e539]: 7.5K+ views · 6 hours ago
+                        - generic [ref=e552]:
+                          - generic [ref=e553]: Right Side Broadcasting Network · YouTube
+                          - generic [ref=e554]: Trump rallies coverage
+                    - button "About this result" [ref=e559] [cursor=pointer]
+                - listitem [ref=e564]:
+                  - generic [ref=e569]:
+                    - 'button "Dodgers News: President Trump Praises Shohei Ohtani, Dodgers at White House Celebration | ドジャース. Play on Google. 25:58" [ref=e574] [cursor=pointer]':
+                      - generic [ref=e575]: 25:58
+                    - 'link "Dodgers News: President Trump Praises Shohei Ohtani, Dodgers at White House Celebration | ドジャース 350+ views · 6 hours ago Bleed Los: Dodgers & MLB News Podcast · YouTube Dodgers news & interviews" [ref=e589] [cursor=pointer]':
+                      - /url: https://www.youtube.com/watch?v=DQLViWSaxoY
+                      - generic [ref=e590]:
+                        - 'heading "Dodgers News: President Trump Praises Shohei Ohtani, Dodgers at White House Celebration | ドジャース" [level=3] [ref=e592]'
+                        - generic [ref=e593]: 350+ views · 6 hours ago
+                        - generic [ref=e606]:
+                          - generic [ref=e607]: "Bleed Los: Dodgers & MLB News Podcast · YouTube"
+                          - generic [ref=e608]: Dodgers news & interviews
+                    - button "About this result" [ref=e613] [cursor=pointer]
+                - listitem [ref=e618]:
+                  - generic [ref=e623]:
+                    - 'link "0:48 El presidente Donald Trump elogió el oportuno jonrón con el que Miguel Rojas empató el Juego 7 de la Serie Mundial que los Dodgers ganaron ante los Blue Jays de Toronto. Incluso bromeó preguntando si el equipo iba a darle un aumento de sueldo después de su decisiva actuación.⁠ ⁠ #Telemundo52 #Dodgers 320+ likes · 4 hours ago telemundo52 Instagram" [ref=e624] [cursor=pointer]':
+                      - /url: https://www.instagram.com/reel/DbJ0-a2inYg/
+                      - generic [ref=e625]: 0:48
+                      - generic [ref=e634]:
+                        - 'heading "El presidente Donald Trump elogió el oportuno jonrón con el que Miguel Rojas empató el Juego 7 de la Serie Mundial que los Dodgers ganaron ante los Blue Jays de Toronto. Incluso bromeó preguntando si el equipo iba a darle un aumento de sueldo después de su decisiva actuación.⁠ ⁠ #Telemundo52 #Dodgers" [level=3] [ref=e636]'
+                        - generic [ref=e637]: 320+ likes · 4 hours ago
+                        - generic [ref=e647]:
+                          - generic [ref=e648]: telemundo52
+                          - generic [ref=e649]: Instagram
+                    - button "About this result" [ref=e653] [cursor=pointer]
+                - listitem [ref=e658]:
+                  - generic [ref=e663]:
+                    - 'link "2:52 FOX 11 Los Angeles. . ''THE DODGERS PLAY FOR THE DODGERS'': LA Times columnist Gustavo Arellano breaks down the controversy and boycott calls surrounding the Dodgers’ White House visit. 130+ reactions · 6 hours ago fox11la · Facebook Los Angeles-based TV station" [ref=e664] [cursor=pointer]':
+                      - /url: https://www.facebook.com/fox11la/videos/the-dodgers-play-for-the-dodgers-la-times-columnist-gustavo-arellano-breaks-down/1014631824667315/
+                      - generic [ref=e665]: 2:52
+                      - generic [ref=e674]:
+                        - 'heading "FOX 11 Los Angeles. . ''THE DODGERS PLAY FOR THE DODGERS'': LA Times columnist Gustavo Arellano breaks down the controversy and boycott calls surrounding the Dodgers’ White House visit." [level=3] [ref=e676]'
+                        - generic [ref=e677]: 130+ reactions · 6 hours ago
+                        - generic [ref=e690]:
+                          - generic [ref=e691]: fox11la · Facebook
+                          - generic [ref=e692]: Los Angeles-based TV station
+                    - button "About this result" [ref=e697] [cursor=pointer]
+                - listitem [ref=e702]:
+                  - generic [ref=e707]:
+                    - button "Shohei Ohtani's Injury Update Isn't as Bad as It Sounds. Play on Google. 10:41" [ref=e712] [cursor=pointer]:
+                      - generic [ref=e713]: 10:41
+                    - link "Shohei Ohtani's Injury Update Isn't as Bad as It Sounds 200+ views · 6 hours ago Flippin' Bats with Ben Verlander · YouTube Baseball show hosted by Ben Verlander" [ref=e724] [cursor=pointer]:
+                      - /url: https://www.youtube.com/watch?v=G1QlwpEl8G4
+                      - generic [ref=e725]:
+                        - heading "Shohei Ohtani's Injury Update Isn't as Bad as It Sounds" [level=3] [ref=e727]
+                        - generic [ref=e728]: 200+ views · 6 hours ago
+                        - generic [ref=e741]:
+                          - generic [ref=e742]: Flippin' Bats with Ben Verlander · YouTube
+                          - generic [ref=e743]: Baseball show hosted by Ben Verlander
+                    - button "About this result" [ref=e748] [cursor=pointer]
+                - listitem [ref=e753]:
+                  - generic [ref=e758]:
+                    - button "Phillies woes against the Dodgers continue, drop two of three at home | Phillies Post Game Live. Play on Google. 21:30" [ref=e763] [cursor=pointer]:
+                      - generic [ref=e764]: 21:30
+                    - link "Phillies woes against the Dodgers continue, drop two of three at home | Phillies Post Game Live 14.5K+ views · 1 day ago NBC Sports Philadelphia · YouTube Philadelphia-based sports network" [ref=e778] [cursor=pointer]:
+                      - /url: https://www.youtube.com/watch?v=n8Yc_f_YgE8
+                      - generic [ref=e779]:
+                        - heading "Phillies woes against the Dodgers continue, drop two of three at home | Phillies Post Game Live" [level=3] [ref=e781]
+                        - generic [ref=e782]: 14.5K+ views · 1 day ago
+                        - generic [ref=e795]:
+                          - generic [ref=e796]: NBC Sports Philadelphia · YouTube
+                          - generic [ref=e797]: Philadelphia-based sports network
+                    - button "About this result" [ref=e802] [cursor=pointer]
+                - listitem [ref=e807]:
+                  - generic [ref=e812]:
+                    - link "There’s an obvious gap between the Dodgers and Brewers and everyone else. 28 teams have significant work to do. 2.5K+ likes · 1 day ago JonHeyman · X MLB Network baseball insider" [ref=e813] [cursor=pointer]:
+                      - /url: https://x.com/JonHeyman/status/2080099396364988472?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+                      - generic [ref=e814]:
+                        - heading "There’s an obvious gap between the Dodgers and Brewers and everyone else. 28 teams have significant work to do." [level=3] [ref=e816]
+                        - generic [ref=e817]: 2.5K+ likes · 1 day ago
+                        - generic [ref=e829]:
+                          - generic [ref=e830]: JonHeyman · X
+                          - generic [ref=e831]: MLB Network baseball insider
+                    - button "About this result" [ref=e836] [cursor=pointer]
+            - button [ref=e841] [cursor=pointer]
+          - button "Dodgers visit the White House" [ref=e850] [cursor=pointer]
+          - button "Tarik Skubal trade rumors" [ref=e861] [cursor=pointer]
+          - button "Political reactions to visit" [ref=e872] [cursor=pointer]
+          - button "Show 2 more" [ref=e880] [cursor=pointer]:
+            - separator [ref=e881]
+        - generic [ref=e890]:
+          - heading "Latest posts from Los Angeles Dodgers" [level=2] [ref=e893]
+          - generic [ref=e897]:
+            - list [ref=e899]:
+              - generic [ref=e900]:
+                - listitem [ref=e901]:
+                  - generic [ref=e904]:
+                    - generic [ref=e905]:
+                      - link [ref=e907] [cursor=pointer]:
+                        - /url: https://x.com/Dodgers/status/2080459017881550944?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+                      - generic [ref=e918]:
+                        - link "Behind the scenes with the champs. 6.1K+ likes · 3 hours ago Dodgers X About this result" [ref=e919] [cursor=pointer]:
+                          - /url: https://x.com/Dodgers/status/2080459017881550944?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+                        - generic [ref=e920]:
+                          - generic [ref=e921]: Behind the scenes with the champs.
+                          - generic [ref=e923]:
+                            - text: 6.1K+ likes ·
+                            - generic [ref=e924]: 3 hours ago
+                    - generic [ref=e927]:
+                      - link "Dodgers X" [ref=e929] [cursor=pointer]:
+                        - /url: https://x.com/Dodgers?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
+                        - generic [ref=e939]:
+                          - generic [ref=e940]: Dodgers
+                          - generic [ref=e941]: X
+                      - button "About this result" [ref=e945] [cursor=pointer]
+                - listitem [ref=e948]:
+                  - generic [ref=e951]:
+                    - generic [ref=e952]:
+                      - link [ref=e954] [cursor=pointer]:
+                        - /url: https://x.com/Dodgers/status/2080358409660961224?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+                      - generic [ref=e965]:
+                        - link "A Congressional Reception for the Champs. 🏆🏆 6.6K+ likes · 9 hours ago Dodgers X About this result" [ref=e966] [cursor=pointer]:
+                          - /url: https://x.com/Dodgers/status/2080358409660961224?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+                        - generic [ref=e967]:
+                          - generic [ref=e968]: A Congressional Reception for the Champs. 🏆🏆
+                          - generic [ref=e970]:
+                            - text: 6.6K+ likes ·
+                            - generic [ref=e971]: 9 hours ago
+                    - generic [ref=e974]:
+                      - link "Dodgers X" [ref=e976] [cursor=pointer]:
+                        - /url: https://x.com/Dodgers?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
+                        - generic [ref=e986]:
+                          - generic [ref=e987]: Dodgers
+                          - generic [ref=e988]: X
+                      - button "About this result" [ref=e992] [cursor=pointer]
+                - listitem [ref=e995]:
+                  - generic [ref=e998]:
+                    - generic [ref=e999]:
+                      - link [ref=e1001] [cursor=pointer]:
+                        - /url: https://x.com/Dodgers/status/2080114120251371674?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+                      - generic [ref=e1004]:
+                        - link "Tonight’s Photo of the Game presented by Daiso. 3.4K+ likes · 1 day ago Dodgers X About this result" [ref=e1005] [cursor=pointer]:
+                          - /url: https://x.com/Dodgers/status/2080114120251371674?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+                        - generic [ref=e1006]:
+                          - generic [ref=e1007]: Tonight’s Photo of the Game presented by Daiso.
+                          - generic [ref=e1009]:
+                            - text: 3.4K+ likes ·
+                            - generic [ref=e1010]: 1 day ago
+                    - generic [ref=e1013]:
+                      - link "Dodgers X" [ref=e1015] [cursor=pointer]:
+                        - /url: https://x.com/Dodgers?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
+                        - generic [ref=e1025]:
+                          - generic [ref=e1026]: Dodgers
+                          - generic [ref=e1027]: X
+                      - button "About this result" [ref=e1031] [cursor=pointer]
+                - listitem [ref=e1034]:
+                  - generic [ref=e1038]:
+                    - generic [ref=e1039]:
+                      - link [ref=e1041] [cursor=pointer]:
+                        - /url: https://x.com/Dodgers/status/2080112206910521776?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+                      - generic [ref=e1044]:
+                        - link "Who's your Player of the Game? Comment your answer below! 1.4K+ likes · 1 day ago Dodgers X About this result" [ref=e1045] [cursor=pointer]:
+                          - /url: https://x.com/Dodgers/status/2080112206910521776?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+                        - generic [ref=e1046]:
+                          - generic [ref=e1047]: Who's your Player of the Game? Comment your answer below!
+                          - generic [ref=e1049]:
+                            - text: 1.4K+ likes ·
+                            - generic [ref=e1050]: 1 day ago
+                    - generic [ref=e1053]:
+                      - link "Dodgers X" [ref=e1055] [cursor=pointer]:
+                        - /url: https://x.com/Dodgers?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
+                        - generic [ref=e1065]:
+                          - generic [ref=e1066]: Dodgers
+                          - generic [ref=e1067]: X
+                      - button "About this result" [ref=e1071] [cursor=pointer]
+                - listitem [ref=e1074]:
+                  - generic [ref=e1078]:
+                    - generic [ref=e1079]:
+                      - link [ref=e1081] [cursor=pointer]:
+                        - /url: https://x.com/Dodgers/status/2080109996587540684?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+                        - generic [ref=e1082]: 0:14
+                      - generic [ref=e1090]:
+                        - link "Victory formation! Dodgers x @Yaamava 5.3K+ likes · 1 day ago Dodgers X About this result" [ref=e1091] [cursor=pointer]:
+                          - /url: https://x.com/Dodgers/status/2080109996587540684?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+                        - generic [ref=e1092]:
+                          - generic [ref=e1093]: Victory formation! Dodgers x @Yaamava
+                          - generic [ref=e1095]:
+                            - text: 5.3K+ likes ·
+                            - generic [ref=e1096]: 1 day ago
+                    - generic [ref=e1099]:
+                      - link "Dodgers X" [ref=e1101] [cursor=pointer]:
+                        - /url: https://x.com/Dodgers?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
+                        - generic [ref=e1111]:
+                          - generic [ref=e1112]: Dodgers
+                          - generic [ref=e1113]: X
+                      - button "About this result" [ref=e1117] [cursor=pointer]
+            - button [ref=e1120] [cursor=pointer]
+        - generic [ref=e1127]:
+          - heading "Web results" [level=2] [ref=e1128]
+          - generic [ref=e1129]:
+            - generic [ref=e1132]:
+              - link "Status of Dodgers' 4 aces to dictate Trade Deadline strategy MLB.com https://www.mlb.com › news › dodgers-rotation-in-foc..." [ref=e1134] [cursor=pointer]:
+                - /url: https://www.mlb.com/news/dodgers-rotation-in-focus-at-2026-trade-deadline
+                - heading "Status of Dodgers' 4 aces to dictate Trade Deadline strategy" [level=3] [ref=e1135]
+                - generic [ref=e1141]:
+                  - generic [ref=e1142]: MLB.com
+                  - generic [ref=e1144]: https://www.mlb.com › news › dodgers-rotation-in-foc...
+              - button "About this result" [ref=e1148] [cursor=pointer]
+            - generic [ref=e1154]:
+              - generic [ref=e1155]: 2 days ago —
+              - generic [ref=e1156]:
+                - text: The good news for the Dodgers is that
+                - emphasis [ref=e1157]: all three of them are making progress toward a return
+                - text: . Snell began a rehab assignment last week ...
+              - link "Read more" [ref=e1158] [cursor=pointer]:
+                - /url: https://www.mlb.com/news/dodgers-rotation-in-focus-at-2026-trade-deadline#:~:text=The%20good%20news%20for%20the,a%20rehab%20assignment%20last%20week.
+        - generic [ref=e1163]:
+          - heading "People also ask" [level=2] [ref=e1165]
+          - generic [ref=e1166]:
+            - button "What Dodgers went to White House?" [ref=e1172] [cursor=pointer]
+            - button "Who just signed with the Dodgers?" [ref=e1186] [cursor=pointer]
+            - button "Did the Dodgers give Trump a World Series ring?" [ref=e1200] [cursor=pointer]
+            - button "Why is Ohtani not pitching?" [ref=e1214] [cursor=pointer]
+        - generic [ref=e1224]:
+          - heading "Web results" [level=2] [ref=e1225]
+          - generic [ref=e1226]:
+            - generic [ref=e1229]:
+              - link "Los Angeles Dodgers X · Dodgers 3.1M+ followers" [ref=e1231] [cursor=pointer]:
+                - /url: https://x.com/Dodgers
+                - heading "Los Angeles Dodgers" [level=3] [ref=e1232]
+                - generic [ref=e1238]:
+                  - generic [ref=e1239]: X · Dodgers
+                  - generic [ref=e1241]: 3.1M+ followers
+              - button "About this result" [ref=e1245] [cursor=pointer]
+            - generic [ref=e1252]:
+              - emphasis [ref=e1253]: Back-to-back 2024 and 2025 World Series Champions
+              - text: . Dodgers power past Philly with homers from Max Muncy and Dalton Rushing. Ron Cey for second most homers in ...
+        - generic [ref=e1257]:
+          - generic [ref=e1260]:
+            - link "Trump hosts champion Dodgers at White House as some ... The Guardian https://www.theguardian.com › sport › jul › dodgers-w..." [ref=e1262] [cursor=pointer]:
+              - /url: https://www.theguardian.com/sport/2026/jul/23/dodgers-white-house-visit-donald-trump
+              - heading "Trump hosts champion Dodgers at White House as some ..." [level=3] [ref=e1263]
+              - generic [ref=e1269]:
+                - generic [ref=e1270]: The Guardian
+                - generic [ref=e1272]: https://www.theguardian.com › sport › jul › dodgers-w...
+            - button "About this result" [ref=e1276] [cursor=pointer]
+          - generic [ref=e1282]:
+            - generic [ref=e1283]:
+              - emphasis [ref=e1285]: 5 hours ago
+              - text: —
+            - generic [ref=e1286]:
+              - emphasis [ref=e1287]: Donald Trump hosted the World Series champion Los Angeles Dodgers
+              - text: at the White House on Thursday for the team's second trip to the White House ...
+        - generic [ref=e1292]:
+          - heading "Discussions and forums" [level=2] [ref=e1294]
+          - generic [ref=e1295]:
+            - generic [ref=e1298]:
+              - generic [ref=e1300] [cursor=pointer]:
+                - generic [ref=e1303]:
+                  - link "Looked as though Alex Call accidentally kicked Shohei Ohtani's right ... Reddit · r/Dodgers · 240+ comments · 1 day ago" [ref=e1304]:
+                    - /url: https://www.reddit.com/r/Dodgers/comments/1v41ina/adrian_medina_looked_as_though_alex_call/
+                    - generic [ref=e1305]:
+                      - heading [level=3] [ref=e1306]:
+                        - link "Looked as though Alex Call accidentally kicked Shohei Ohtani's right ..." [ref=e1307]
+                      - generic [ref=e1314]:
+                        - generic [ref=e1315]: Reddit ·
+                        - generic [ref=e1317]:
+                          - generic [ref=e1318]:
+                            - generic [ref=e1319]: r/Dodgers
+                            - generic [ref=e1320]:
+                              - generic [ref=e1321]: ·
+                              - generic [ref=e1322]: 240+ comments
+                          - generic [ref=e1323]:
+                            - generic [ref=e1324]: ·
+                            - generic [ref=e1325]: 1 day ago
+                  - generic [ref=e1331]:
+                    - generic [ref=e1334]: ·
+                    - button "About this result" [ref=e1340]
+                - button "Looked as though Alex Call accidentally kicked Shohei Ohtani's right ... Reddit · r/Dodgers · 240+ comments · 1 day ago" [expanded] [ref=e1345]
+              - list [ref=e1357]:
+                - listitem [ref=e1358]:
+                  - generic [ref=e1362]:
+                    - 'link "@Adrian Medina: Looked as though Alex Call accidentally kicked Shohei Ohtani''s right elbow as they exited the dugout to celebrate the Dodgers'' ... More discussions on Looked as though Alex Call accidentally kicked Shohei Ohtani''s right ..." [ref=e1363] [cursor=pointer]':
+                      - /url: https://www.reddit.com/r/Dodgers/comments/1v41ina/adrian_medina_looked_as_though_alex_call/
+                    - generic [ref=e1365]:
+                      - text: "@Adrian Medina: Looked as though Alex Call accidentally kicked Shohei Ohtani's right elbow as they exited the dugout to celebrate the Dodgers' ..."
+                      - link [ref=e1366] [cursor=pointer]:
+                        - /url: https://www.reddit.com/r/Dodgers/comments/1v41ina/adrian_medina_looked_as_though_alex_call/
+                        - generic [ref=e1367]: More
+            - generic [ref=e1375] [cursor=pointer]:
+              - generic [ref=e1378]:
+                - link "Looked as though Alex Call accidentally kicked Shohei Ohtani's right ... Reddit · r/baseball · 380+ comments · 1 day ago" [ref=e1379]:
+                  - /url: https://www.reddit.com/r/baseball/comments/1v41j4v/looked_as_though_alex_call_accidentally_kicked/
+                  - generic [ref=e1380]:
+                    - heading [level=3] [ref=e1381]:
+                      - link "Looked as though Alex Call accidentally kicked Shohei Ohtani's right ..." [ref=e1382]
+                    - generic [ref=e1389]:
+                      - generic [ref=e1390]: Reddit ·
+                      - generic [ref=e1392]:
+                        - generic [ref=e1393]:
+                          - generic [ref=e1394]: r/baseball
+                          - generic [ref=e1395]:
+                            - generic [ref=e1396]: ·
+                            - generic [ref=e1397]: 380+ comments
+                        - generic [ref=e1398]:
+                          - generic [ref=e1399]: ·
+                          - generic [ref=e1400]: 1 day ago
+                - generic [ref=e1406]:
+                  - generic [ref=e1409]: ·
+                  - button "About this result" [ref=e1415]
+              - button "Looked as though Alex Call accidentally kicked Shohei Ohtani's right ... Reddit · r/baseball · 380+ comments · 1 day ago" [ref=e1420]
+            - link "See more discussions" [ref=e1426] [cursor=pointer]:
+              - /url: /search?q=Dodgers+news&sca_esv=3ec428b44c56173e&udm=18&sa=X&ved=2ahUKEwjmwPjysOqVAxWXJEQIHW64IiwQ8poLegUIiwEQAw
+              - separator [ref=e1427]
+              - generic [ref=e1428]: See more
+        - generic [ref=e1439]:
+          - generic [ref=e1442]:
+            - link "How Will Ireton changes the game for the Los Angeles Dodgers YouTube · NBCLA 9.7K+ views · 9 hours ago" [ref=e1444] [cursor=pointer]:
+              - /url: https://www.youtube.com/watch?v=7fqgpqyH8qE
+              - heading "How Will Ireton changes the game for the Los Angeles Dodgers" [level=3] [ref=e1445]
+              - generic [ref=e1451]:
+                - generic [ref=e1452]: YouTube · NBCLA
+                - generic [ref=e1454]: 9.7K+ views · 9 hours ago
+            - button "About this result" [ref=e1458] [cursor=pointer]
+          - generic [ref=e1463]:
+            - button "How Will Ireton changes the game for the Los Angeles Dodgers by NBCLA on YouTube. Play on Google. 4:27" [ref=e1464] [cursor=pointer]:
+              - generic [ref=e1465]: 4:27
+            - generic [ref=e1482]: "Dodgers News: President Trump Praises Shohei Ohtani, Dodgers at White House Celebration | ドジャース. Bleed Los: Dodgers & MLB News Podcast."
+        - generic [ref=e1487]:
+          - generic [ref=e1490]:
+            - link "Dodgers visit White House, as owner gives President ... Reddit · r/mlb 40+ comments · 5 hours ago" [ref=e1492] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/mlb/comments/1v4s372/dodgers_visit_white_house_as_owner_gives/
+              - heading "Dodgers visit White House, as owner gives President ..." [level=3] [ref=e1493]
+              - generic [ref=e1499]:
+                - generic [ref=e1500]: Reddit · r/mlb
+                - generic [ref=e1502]: 40+ comments · 5 hours ago
+            - button "About this result" [ref=e1506] [cursor=pointer]
+          - generic [ref=e1513]:
+            - emphasis [ref=e1514]: Owner is being investigated by the FBI right now
+            - text: . From discussions, news, analysis, and highlights from all thirty teams. Dodgers Fan Alleging ...
+        - generic [ref=e1518]:
+          - generic [ref=e1521]:
+            - 'link "Bleed Los: Dodgers & MLB News Podcast YouTube · Bleed Los: Dodgers & MLB News Podcast 30.7K+ followers" [ref=e1523] [cursor=pointer]':
+              - /url: https://www.youtube.com/bleedlospodcast
+              - 'heading "Bleed Los: Dodgers & MLB News Podcast" [level=3] [ref=e1524]'
+              - generic [ref=e1530]:
+                - generic [ref=e1531]: "YouTube · Bleed Los: Dodgers & MLB News Podcast"
+                - generic [ref=e1533]: 30.7K+ followers
+            - button "About this result" [ref=e1537] [cursor=pointer]
+          - generic [ref=e1543]:
+            - generic [ref=e1544]:
+              - text: 2025 Postgame Interviews ·
+              - emphasis [ref=e1545]: Dodgers postgame
+              - text: ": Dave Roberts on Sheehan's strong start, Roki Sasaki update & bullpen decisions · Dodgers postgame: Dalton Rushing ..."
+            - link "Read more" [ref=e1546] [cursor=pointer]:
+              - /url: https://www.youtube.com/bleedlospodcast#:~:text=2025%20Postgame%20Interviews&text=Dodgers%20postgame%3A%20Dave%20Roberts%20on,Sasaki%20update%20%26%20bullpen%20decisions&text=Dodgers%20postgame%3A%20Dalton%20Rushing%20on,Emmet%20Sheehan's%20dominance
+      - generic [ref=e1548]:
+        - generic [ref=e1553]:
+          - heading "People also search for" [level=2] [ref=e1555]
+          - generic [ref=e1557]:
+            - generic [ref=e1558]:
+              - link "Dodgers trump ring" [ref=e1562] [cursor=pointer]:
+                - /url: /search?sca_esv=3ec428b44c56173e&q=Dodgers+trump+ring&sa=X&ved=2ahUKEwjmwPjysOqVAxWXJEQIHW64IiwQ1QJ6BQiiARAB
+              - link "Dodgers with trump" [ref=e1580] [cursor=pointer]:
+                - /url: /search?sca_esv=3ec428b44c56173e&q=Dodgers+with+trump&sa=X&ved=2ahUKEwjmwPjysOqVAxWXJEQIHW64IiwQ1QJ6BQimARAB
+              - link "LA Dodgers news and rumors" [ref=e1598] [cursor=pointer]:
+                - /url: /search?sca_esv=3ec428b44c56173e&q=LA+Dodgers+news+and+rumors&sa=X&ved=2ahUKEwjmwPjysOqVAxWXJEQIHW64IiwQ1QJ6BQipARAB
+              - link "Dodgers news Bellinger" [ref=e1612] [cursor=pointer]:
+                - /url: /search?sca_esv=3ec428b44c56173e&q=Dodgers+news+Bellinger&sa=X&ved=2ahUKEwjmwPjysOqVAxWXJEQIHW64IiwQ1QJ6BQinARAB
+            - generic [ref=e1623]:
+              - link "Dodgers news today and rumors trade" [ref=e1627] [cursor=pointer]:
+                - /url: /search?sca_esv=3ec428b44c56173e&q=Dodgers+news+today+and+rumors+trade&sa=X&ved=2ahUKEwjmwPjysOqVAxWXJEQIHW64IiwQ1QJ6BQioARAB
+              - link "La Dodgers news TODAY trade" [ref=e1641] [cursor=pointer]:
+                - /url: /search?sca_esv=3ec428b44c56173e&q=La+Dodgers+news+TODAY+trade&sa=X&ved=2ahUKEwjmwPjysOqVAxWXJEQIHW64IiwQ1QJ6BQijARAB
+              - link "Dodgers news today ESPN" [ref=e1655] [cursor=pointer]:
+                - /url: /search?sca_esv=3ec428b44c56173e&q=Dodgers+news+today+ESPN&sa=X&ved=2ahUKEwjmwPjysOqVAxWXJEQIHW64IiwQ1QJ6BQikARAB
+              - link "Dodgers news Kyle Tucker" [ref=e1669] [cursor=pointer]:
+                - /url: /search?sca_esv=3ec428b44c56173e&q=Dodgers+news+Kyle+Tucker&sa=X&ved=2ahUKEwjmwPjysOqVAxWXJEQIHW64IiwQ1QJ6BQilARAB
+        - navigation [ref=e1680]:
+          - heading "Page Navigation" [level=1] [ref=e1681]
+          - text: "1"
+          - link "Page 2" [ref=e1684] [cursor=pointer]:
+            - /url: /search?q=Dodgers+news&sca_esv=3ec428b44c56173e&ei=X91iaqaVDZfJkPIP7vCK4QI&start=10&sa=N&sstk=AU9db-DoK7qD98PkQSKE4Ov5Dr7ppMxak4hSBTyMgtkQaiIexzy6PGR2y2kPbwSxfYVAGK0ZPsC1cIbtdFSLARVibB5MNvukMQQkiA&ved=2ahUKEwjmwPjysOqVAxWXJEQIHW64IiwQ8tMDegUImQEQBA
+            - text: "2"
+          - link "Page 3" [ref=e1686] [cursor=pointer]:
+            - /url: /search?q=Dodgers+news&sca_esv=3ec428b44c56173e&ei=X91iaqaVDZfJkPIP7vCK4QI&start=20&sa=N&sstk=AU9db-DoK7qD98PkQSKE4Ov5Dr7ppMxak4hSBTyMgtkQaiIexzy6PGR2y2kPbwSxfYVAGK0ZPsC1cIbtdFSLARVibB5MNvukMQQkiA&ved=2ahUKEwjmwPjysOqVAxWXJEQIHW64IiwQ8tMDegUImQEQBg
+            - text: "3"
+          - link "Page 4" [ref=e1688] [cursor=pointer]:
+            - /url: /search?q=Dodgers+news&sca_esv=3ec428b44c56173e&ei=X91iaqaVDZfJkPIP7vCK4QI&start=30&sa=N&sstk=AU9db-DoK7qD98PkQSKE4Ov5Dr7ppMxak4hSBTyMgtkQaiIexzy6PGR2y2kPbwSxfYVAGK0ZPsC1cIbtdFSLARVibB5MNvukMQQkiA&ved=2ahUKEwjmwPjysOqVAxWXJEQIHW64IiwQ8tMDegUImQEQCA
+            - text: "4"
+          - link "Page 5" [ref=e1690] [cursor=pointer]:
+            - /url: /search?q=Dodgers+news&sca_esv=3ec428b44c56173e&ei=X91iaqaVDZfJkPIP7vCK4QI&start=40&sa=N&sstk=AU9db-DoK7qD98PkQSKE4Ov5Dr7ppMxak4hSBTyMgtkQaiIexzy6PGR2y2kPbwSxfYVAGK0ZPsC1cIbtdFSLARVibB5MNvukMQQkiA&ved=2ahUKEwjmwPjysOqVAxWXJEQIHW64IiwQ8tMDegUImQEQCg
+            - text: "5"
+          - link "Page 6" [ref=e1692] [cursor=pointer]:
+            - /url: /search?q=Dodgers+news&sca_esv=3ec428b44c56173e&ei=X91iaqaVDZfJkPIP7vCK4QI&start=50&sa=N&sstk=AU9db-DoK7qD98PkQSKE4Ov5Dr7ppMxak4hSBTyMgtkQaiIexzy6PGR2y2kPbwSxfYVAGK0ZPsC1cIbtdFSLARVibB5MNvukMQQkiA&ved=2ahUKEwjmwPjysOqVAxWXJEQIHW64IiwQ8tMDegUImQEQDA
+            - text: "6"
+          - link "Page 7" [ref=e1694] [cursor=pointer]:
+            - /url: /search?q=Dodgers+news&sca_esv=3ec428b44c56173e&ei=X91iaqaVDZfJkPIP7vCK4QI&start=60&sa=N&sstk=AU9db-DoK7qD98PkQSKE4Ov5Dr7ppMxak4hSBTyMgtkQaiIexzy6PGR2y2kPbwSxfYVAGK0ZPsC1cIbtdFSLARVibB5MNvukMQQkiA&ved=2ahUKEwjmwPjysOqVAxWXJEQIHW64IiwQ8tMDegUImQEQDg
+            - text: "7"
+          - link "Page 8" [ref=e1696] [cursor=pointer]:
+            - /url: /search?q=Dodgers+news&sca_esv=3ec428b44c56173e&ei=X91iaqaVDZfJkPIP7vCK4QI&start=70&sa=N&sstk=AU9db-DoK7qD98PkQSKE4Ov5Dr7ppMxak4hSBTyMgtkQaiIexzy6PGR2y2kPbwSxfYVAGK0ZPsC1cIbtdFSLARVibB5MNvukMQQkiA&ved=2ahUKEwjmwPjysOqVAxWXJEQIHW64IiwQ8tMDegUImQEQEA
+            - text: "8"
+          - link "Page 9" [ref=e1698] [cursor=pointer]:
+            - /url: /search?q=Dodgers+news&sca_esv=3ec428b44c56173e&ei=X91iaqaVDZfJkPIP7vCK4QI&start=80&sa=N&sstk=AU9db-DoK7qD98PkQSKE4Ov5Dr7ppMxak4hSBTyMgtkQaiIexzy6PGR2y2kPbwSxfYVAGK0ZPsC1cIbtdFSLARVibB5MNvukMQQkiA&ved=2ahUKEwjmwPjysOqVAxWXJEQIHW64IiwQ8tMDegUImQEQEg
+            - text: "9"
+          - link "Page 10" [ref=e1700] [cursor=pointer]:
+            - /url: /search?q=Dodgers+news&sca_esv=3ec428b44c56173e&ei=X91iaqaVDZfJkPIP7vCK4QI&start=90&sa=N&sstk=AU9db-DoK7qD98PkQSKE4Ov5Dr7ppMxak4hSBTyMgtkQaiIexzy6PGR2y2kPbwSxfYVAGK0ZPsC1cIbtdFSLARVibB5MNvukMQQkiA&ved=2ahUKEwjmwPjysOqVAxWXJEQIHW64IiwQ8tMDegUImQEQFA
+            - text: "10"
+          - heading [level=2] [ref=e1702]:
+            - link "Next" [ref=e1703] [cursor=pointer]:
+              - /url: /search?q=Dodgers+news&sca_esv=3ec428b44c56173e&ei=X91iaqaVDZfJkPIP7vCK4QI&start=10&sa=N&sstk=AU9db-DoK7qD98PkQSKE4Ov5Dr7ppMxak4hSBTyMgtkQaiIexzy6PGR2y2kPbwSxfYVAGK0ZPsC1cIbtdFSLARVibB5MNvukMQQkiA&ved=2ahUKEwjmwPjysOqVAxWXJEQIHW64IiwQ8NMDegUImQEQFg
+      - navigation
+    - contentinfo [ref=e1706]:
+      - heading "Footer Links" [level=1] [ref=e1707]
+      - generic [ref=e1711]:
+        - generic [ref=e1715]:
+          - button "92105, San Diego, CA - From your IP address" [ref=e1717] [cursor=pointer]:
+            - generic [ref=e1718]: 92105, San Diego, CA
+            - generic [ref=e1720]:
+              - text: "-"
+              - generic [ref=e1721]: From your IP address
+          - text: "-"
+          - button "Update location" [ref=e1723] [cursor=pointer]
+        - generic [ref=e1726]:
+          - link "Help" [ref=e1727] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1
+          - link "Send feedback" [ref=e1728] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e1729] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en&fg=1
+          - link "Terms" [ref=e1730] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en&fg=1

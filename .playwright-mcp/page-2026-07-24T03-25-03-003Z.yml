@@ -1,0 +1,185 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en
+  - generic [ref=e6]:
+    - search [ref=e7]:
+      - generic [ref=e10]:
+        - link [ref=e11] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&ictx=0&sa=X&ved=0ahUKEwig7J_XruqVAxXtL0QIHY-uCp0QpYkNCAk
+          - img "Go to Google home" [ref=e12]
+        - generic [ref=e17]:
+          - combobox "Search" [ref=e20]: Los Angeles Dodgers latest news Los Angeles Dodgers latest news
+          - generic [ref=e21]:
+            - button "Clear" [ref=e23] [cursor=pointer]
+            - button "Search by voice" [ref=e29] [cursor=pointer]
+        - button "Google Search" [ref=e32] [cursor=pointer]
+    - generic [ref=e37]:
+      - button "Settings" [ref=e39] [cursor=pointer]
+      - generic [ref=e45]:
+        - button "Google apps" [ref=e47] [cursor=pointer]
+        - link "Sign in" [ref=e52] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3DLos%2BAngeles%2BDodgers%2Blatest%2Bnews%26tbm%3Dnws&ec=futura_srp_og_si_72236_p
+  - generic [ref=e54]:
+    - navigation [ref=e60]:
+      - generic [ref=e66]:
+        - list [ref=e67]:
+          - listitem [ref=e68]:
+            - link "AI Mode" [ref=e71] [cursor=pointer]:
+              - /url: /search?q=Los+Angeles+Dodgers+latest+news&sca_esv=00b888171813a75e&udm=50&aep=1&ntc=1&cs=0&sa=X&ved=2ahUKEwig7J_XruqVAxXtL0QIHY-uCp0Q2J8OegQIAxAD
+          - listitem [ref=e75]:
+            - link "All" [ref=e76] [cursor=pointer]:
+              - /url: /search?q=Los+Angeles+Dodgers+latest+news&sca_esv=00b888171813a75e&source=lnms&sa=X&ved=2ahUKEwig7J_XruqVAxXtL0QIHY-uCp0Q0pQJegQIAxAF
+          - listitem [ref=e79]:
+            - link "Images" [ref=e80] [cursor=pointer]:
+              - /url: /search?q=Los+Angeles+Dodgers+latest+news&sca_esv=00b888171813a75e&udm=2&source=lnms&sa=X&ved=2ahUKEwig7J_XruqVAxXtL0QIHY-uCp0Q0pQJegQIAxAH
+          - listitem [ref=e83]:
+            - link "Videos" [ref=e84] [cursor=pointer]:
+              - /url: /search?q=Los+Angeles+Dodgers+latest+news&sca_esv=00b888171813a75e&udm=7&source=lnms&sa=X&ved=2ahUKEwig7J_XruqVAxXtL0QIHY-uCp0Q0pQJegQIAxAJ
+          - listitem [ref=e87]:
+            - link "News" [disabled] [ref=e88]
+          - listitem [ref=e91]:
+            - link "Shopping" [ref=e92] [cursor=pointer]:
+              - /url: /search?q=Los+Angeles+Dodgers+latest+news&sca_esv=00b888171813a75e&udm=28&source=lnms&ved=1t:200715&ictx=111
+          - listitem [ref=e95]:
+            - link "Books" [ref=e96] [cursor=pointer]:
+              - /url: /search?q=Los+Angeles+Dodgers+latest+news&sca_esv=00b888171813a75e&udm=36&source=lnms&sa=X&ved=2ahUKEwig7J_XruqVAxXtL0QIHY-uCp0Q0pQJegQIAxAP
+          - listitem [ref=e99]:
+            - button [ref=e100] [cursor=pointer]:
+              - generic "More filters" [ref=e101]: More
+        - button "Tools" [ref=e108] [cursor=pointer]
+    - heading "Search Results" [level=1] [ref=e115]
+    - navigation
+    - main [ref=e121]:
+      - generic [ref=e127]:
+        - generic [ref=e128]:
+          - heading "Donald Trump hosts Los Angeles Dodgers at the White House" [level=2] [ref=e131]
+          - generic [ref=e135]:
+            - generic [ref=e136]:
+              - link "The Guardian Trump hosts champion Dodgers at White House as some players stay away 4 hours ago" [ref=e139] [cursor=pointer]:
+                - /url: https://www.theguardian.com/sport/2026/jul/23/dodgers-white-house-visit-donald-trump
+                - generic [ref=e144]:
+                  - generic [ref=e145]: The Guardian
+                  - heading "Trump hosts champion Dodgers at White House as some players stay away" [level=3] [ref=e149]
+                  - generic [ref=e150]: 4 hours ago
+              - generic [ref=e153]:
+                - link "The New York Times Trump honors Dodgers for ‘truly a great World Series’ at White House ceremony 3 hours ago" [ref=e156] [cursor=pointer]:
+                  - /url: https://www.nytimes.com/athletic/7467199/2026/07/23/dodgers-trump-white-house-visit-roberts/
+                  - generic [ref=e161]:
+                    - generic [ref=e162]: The New York Times
+                    - heading "Trump honors Dodgers for ‘truly a great World Series’ at White House ceremony" [level=3] [ref=e166]
+                    - generic: 3 hours ago
+                - 'link "ESPN Trump hails Dodgers at second White House visit: ''One of the great brands'' 5 hours ago" [ref=e171] [cursor=pointer]':
+                  - /url: https://www.espn.com/espn/story/_/id/49435696/trump-hails-dodgers-white-house
+                  - generic [ref=e176]:
+                    - generic [ref=e177]: ESPN
+                    - 'heading "Trump hails Dodgers at second White House visit: ''One of the great brands''" [level=3] [ref=e181]'
+                    - generic: 5 hours ago
+            - generic [ref=e184]:
+              - link "USA Today Dodgers visit White House, as owner gives President Trump championship ring 3 hours ago" [ref=e187] [cursor=pointer]:
+                - /url: https://www.usatoday.com/story/sports/mlb/dodgers/2026/07/23/la-dodgers-president-trump-white-house-world-series/91012015007/
+                - generic [ref=e192]:
+                  - generic [ref=e193]: USA Today
+                  - heading "Dodgers visit White House, as owner gives President Trump championship ring" [level=3] [ref=e197]
+                  - generic: 3 hours ago
+              - link "MLB.com Dodgers visit White House to celebrate back-to-back World Series titles 1 hour ago" [ref=e203] [cursor=pointer]:
+                - /url: https://www.mlb.com/news/dodgers-visit-white-house-to-celebrate-2025-world-series-championship
+                - generic [ref=e208]:
+                  - generic [ref=e209]: MLB.com
+                  - heading "Dodgers visit White House to celebrate back-to-back World Series titles" [level=3] [ref=e213]
+                  - generic: 1 hour ago
+            - generic [ref=e216]:
+              - link "Fox News Trump likens Shohei Ohtani to Babe Ruth as the World Series champion Dodgers visit White House 5 hours ago" [ref=e219] [cursor=pointer]:
+                - /url: https://www.foxnews.com/sports/trump-likens-shohei-ohtani-babe-ruth-world-series-champion-dodgers-visit-white-house
+                - generic [ref=e224]:
+                  - generic [ref=e225]: Fox News
+                  - heading "Trump likens Shohei Ohtani to Babe Ruth as the World Series champion Dodgers visit White House" [level=3] [ref=e229]
+                  - generic: 5 hours ago
+              - 'link "The Hill Watch live: Trump welcomes Los Angeles Dodgers to White House 8 hours ago" [ref=e235] [cursor=pointer]':
+                - /url: https://thehill.com/video-clips/5986725-watch-live-donald-trump-los-angeles-dodgers-white-house/
+                - generic [ref=e240]:
+                  - generic [ref=e241]: The Hill
+                  - 'heading "Watch live: Trump welcomes Los Angeles Dodgers to White House" [level=3] [ref=e245]'
+                  - generic: 8 hours ago
+            - generic [ref=e248]:
+              - link "France 24 Dodgers return to Trump White House despite fan anger 4 hours ago" [ref=e251] [cursor=pointer]:
+                - /url: https://www.france24.com/en/live-news/20260723-dodgers-return-to-trump-white-house-despite-fan-anger
+                - generic [ref=e256]:
+                  - generic [ref=e257]: France 24
+                  - heading "Dodgers return to Trump White House despite fan anger" [level=3] [ref=e261]
+                  - generic: 4 hours ago
+              - link "WBFF Trump welcomes World Series champion Los Angeles Dodgers to White House 6 hours ago" [ref=e266] [cursor=pointer]:
+                - /url: https://foxbaltimore.com/news/nation-world/trump-will-welcome-the-world-series-champion-dodgers-to-the-white-house
+                - generic [ref=e271]:
+                  - generic [ref=e272]: WBFF
+                  - heading "Trump welcomes World Series champion Los Angeles Dodgers to White House" [level=3] [ref=e276]
+                  - generic: 6 hours ago
+          - link "View full coverage" [ref=e280] [cursor=pointer]:
+            - /url: https://www.google.com/search?q=Los+Angeles+Dodgers+latest+news&sca_esv=00b888171813a75e&tbm=nws&story=GjsSOURvbmFsZCBUcnVtcCBob3N0cyBMb3MgQW5nZWxlcyBEb2RnZXJzIGF0IHRoZSBXaGl0ZSBIb3VzZTIwCibAgerfipWugtsB1ey-uor0pZxMhoXZ_efHupphiPDi2rDw9eTrARCm2-jRERgFcgIQAg&fcs=AF4cvB6Ti5HfrxJSScvjrX8uepb5DA43Mw&sa=X&ved=2ahUKEwig7J_XruqVAxXtL0QIHY-uCp0Q7IUHegQICxAE
+            - separator [ref=e281]
+        - link "Yahoo Sports Los Angeles Dodgers Rumored to Consider Stunning MLB Trade Deadline Decision The Los Angeles Dodgers have consistently been linked to making a splash before the MLB trade deadline, but a surprising […] . 1 day ago" [ref=e290] [cursor=pointer]:
+          - /url: https://sports.yahoo.com/articles/los-angeles-dodgers-rumored-consider-165326659.html
+          - generic [ref=e295]:
+            - generic [ref=e296]: Yahoo Sports
+            - heading "Los Angeles Dodgers Rumored to Consider Stunning MLB Trade Deadline Decision" [level=3] [ref=e300]
+            - generic [ref=e301]: The Los Angeles Dodgers have consistently been linked to making a splash before the MLB trade deadline, but a surprising […]
+            - generic [ref=e302]: .
+            - generic: 1 day ago
+      - navigation [ref=e306]:
+        - heading "Page Navigation" [level=1] [ref=e307]
+        - text: "1"
+        - link "Page 2" [ref=e310] [cursor=pointer]:
+          - /url: /search?q=Los+Angeles+Dodgers+latest+news&sca_esv=00b888171813a75e&tbm=nws&ei=DNtiaqC2EO3fkPIPj92q6Ak&start=10&sa=N&ved=2ahUKEwig7J_XruqVAxXtL0QIHY-uCp0Q8tMDegQIFhAE
+          - text: "2"
+        - link "Page 3" [ref=e312] [cursor=pointer]:
+          - /url: /search?q=Los+Angeles+Dodgers+latest+news&sca_esv=00b888171813a75e&tbm=nws&ei=DNtiaqC2EO3fkPIPj92q6Ak&start=20&sa=N&ved=2ahUKEwig7J_XruqVAxXtL0QIHY-uCp0Q8tMDegQIFhAG
+          - text: "3"
+        - link "Page 4" [ref=e314] [cursor=pointer]:
+          - /url: /search?q=Los+Angeles+Dodgers+latest+news&sca_esv=00b888171813a75e&tbm=nws&ei=DNtiaqC2EO3fkPIPj92q6Ak&start=30&sa=N&ved=2ahUKEwig7J_XruqVAxXtL0QIHY-uCp0Q8tMDegQIFhAI
+          - text: "4"
+        - link "Page 5" [ref=e316] [cursor=pointer]:
+          - /url: /search?q=Los+Angeles+Dodgers+latest+news&sca_esv=00b888171813a75e&tbm=nws&ei=DNtiaqC2EO3fkPIPj92q6Ak&start=40&sa=N&ved=2ahUKEwig7J_XruqVAxXtL0QIHY-uCp0Q8tMDegQIFhAK
+          - text: "5"
+        - link "Page 6" [ref=e318] [cursor=pointer]:
+          - /url: /search?q=Los+Angeles+Dodgers+latest+news&sca_esv=00b888171813a75e&tbm=nws&ei=DNtiaqC2EO3fkPIPj92q6Ak&start=50&sa=N&ved=2ahUKEwig7J_XruqVAxXtL0QIHY-uCp0Q8tMDegQIFhAM
+          - text: "6"
+        - link "Page 7" [ref=e320] [cursor=pointer]:
+          - /url: /search?q=Los+Angeles+Dodgers+latest+news&sca_esv=00b888171813a75e&tbm=nws&ei=DNtiaqC2EO3fkPIPj92q6Ak&start=60&sa=N&ved=2ahUKEwig7J_XruqVAxXtL0QIHY-uCp0Q8tMDegQIFhAO
+          - text: "7"
+        - link "Page 8" [ref=e322] [cursor=pointer]:
+          - /url: /search?q=Los+Angeles+Dodgers+latest+news&sca_esv=00b888171813a75e&tbm=nws&ei=DNtiaqC2EO3fkPIPj92q6Ak&start=70&sa=N&ved=2ahUKEwig7J_XruqVAxXtL0QIHY-uCp0Q8tMDegQIFhAQ
+          - text: "8"
+        - link "Page 9" [ref=e324] [cursor=pointer]:
+          - /url: /search?q=Los+Angeles+Dodgers+latest+news&sca_esv=00b888171813a75e&tbm=nws&ei=DNtiaqC2EO3fkPIPj92q6Ak&start=80&sa=N&ved=2ahUKEwig7J_XruqVAxXtL0QIHY-uCp0Q8tMDegQIFhAS
+          - text: "9"
+        - link "Page 10" [ref=e326] [cursor=pointer]:
+          - /url: /search?q=Los+Angeles+Dodgers+latest+news&sca_esv=00b888171813a75e&tbm=nws&ei=DNtiaqC2EO3fkPIPj92q6Ak&start=90&sa=N&ved=2ahUKEwig7J_XruqVAxXtL0QIHY-uCp0Q8tMDegQIFhAU
+          - text: "10"
+        - heading [level=2] [ref=e328]:
+          - link "Next" [ref=e329] [cursor=pointer]:
+            - /url: /search?q=Los+Angeles+Dodgers+latest+news&sca_esv=00b888171813a75e&tbm=nws&ei=DNtiaqC2EO3fkPIPj92q6Ak&start=10&sa=N&ved=2ahUKEwig7J_XruqVAxXtL0QIHY-uCp0Q8NMDegQIFhAW
+      - navigation
+    - contentinfo [ref=e332]:
+      - heading "Footer Links" [level=1] [ref=e333]
+      - generic [ref=e337]:
+        - generic [ref=e341]:
+          - button "92105, San Diego, CA - From your IP address" [ref=e343] [cursor=pointer]:
+            - generic [ref=e344]: 92105, San Diego, CA
+            - generic [ref=e346]:
+              - text: "-"
+              - generic [ref=e347]: From your IP address
+          - text: "-"
+          - button "Update location" [ref=e349] [cursor=pointer]
+        - generic [ref=e352]:
+          - link "Help" [ref=e353] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1
+          - link "How News Works" [ref=e354] [cursor=pointer]:
+            - /url: https://newsinitiative.withgoogle.com/hownewsworks/?fg=1
+          - link "Send feedback" [ref=e355] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e356] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en&fg=1
+          - link "Terms" [ref=e357] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en&fg=1

@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "node --env-file=.env --watch-path=./src src/index.ts",
     "dev2": "node --env-file=.env --watch-path=./src src/index2.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --env-file=.env src/index2.ts"
   },
   "keywords": [],
   "author": "",
