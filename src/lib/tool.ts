@@ -51,7 +51,7 @@ export default class LocalTool<
     input: z.infer<InputSchema>,
   ): Promise<z.infer<OutputSchema> | Error> {
     try {
-      return this._execute(input);
+      return await this._execute(input);
     } catch (error) {
       return error as Error;
     }

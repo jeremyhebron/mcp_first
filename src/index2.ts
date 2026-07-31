@@ -22,7 +22,7 @@ process.on("SIGTERM", async () => {
 while (true) {
   const prompt = await rl.question("Prompt: ");
 
-  await agent.start({
+  const { superUsage } = await agent.start({
     prompt,
     maxSteps: 10,
   });
