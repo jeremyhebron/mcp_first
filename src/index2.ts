@@ -10,13 +10,24 @@ const rl = createInterface({
   output: process.stdout,
 });
 
-process.on("SIGINT", async () => {
+let shuttingDown = false;
+async function shutdown() {
+  if (shuttingDown) return;
+  shuttingDown = true;
   rl.close();
-  await agent.closeMCPConnections();
+  await agent.abort();
+  process.exit(0);
+}
+
+process.on("SIGINT", async () => {
+  shutdown();
 });
 process.on("SIGTERM", async () => {
-  rl.close();
-  await agent.closeMCPConnections();
+  shutdown();
+});
+
+rl.on("close", () => {
+  shutdown();
 });
 
 while (true) {

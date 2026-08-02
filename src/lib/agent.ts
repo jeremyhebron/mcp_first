@@ -45,6 +45,7 @@ export default class Agent {
   mcpClients: Client[];
   subAgents: Record<string, Agent>;
   color: string;
+  abortController: AbortController;
 
   constructor({
     model,
@@ -76,6 +77,7 @@ export default class Agent {
     this.id = id;
     this.subAgents = subAgents;
     this.color = color;
+    this.abortController = new AbortController();
 
     const agentIds = Object.values(subAgents).map((subAgent) => subAgent.id);
 
@@ -122,6 +124,15 @@ export default class Agent {
     if (Object.values(subAgents).length > 0) {
       this.toolRegistry[launchSubAgent.name] = launchSubAgent;
     }
+  }
+
+  async abort() {
+    this.abortController.abort();
+    await this.closeMCPConnections();
+  }
+
+  get aborted() {
+    return this.abortController.signal.aborted;
   }
 
   getSubAgent(subAgentID: string) {
@@ -214,16 +225,21 @@ export default class Agent {
   }
 
   async streamCompletion() {
-    const stream = await this.client.chat.completions.create({
-      model: this.model,
-      messages: this.messages,
-      stream: true,
-      tools: this.getToolDefinitions(),
-      reasoning_effort: "low",
-      stream_options: {
-        include_usage: true,
+    const stream = await this.client.chat.completions.create(
+      {
+        model: this.model,
+        messages: this.messages,
+        stream: true,
+        tools: this.getToolDefinitions(),
+        reasoning_effort: "low",
+        stream_options: {
+          include_usage: true,
+        },
       },
-    });
+      {
+        signal: this.abortController.signal,
+      },
+    );
     let finalResponse = "";
     const toolCalls = new Map<
       number,
@@ -389,6 +405,7 @@ export default class Agent {
     maxSteps: number;
     isSubAgent?: boolean;
   }) {
+    this.abortController = new AbortController();
     const startTime = performance.now();
     await this.loadMCPTools();
     // console.log(Object.values(this.toolRegistry).length);
@@ -403,8 +420,20 @@ export default class Agent {
       total_tokens: 0,
     };
 
+    const abortedReturnPayload = {
+      finalResponse: "User Aborted",
+      superUsage: {
+        completion_tokens: 0,
+        prompt_tokens: 0,
+        total_tokens: 0,
+      },
+    };
     //agent loop
     for (let i = 0; i < maxSteps; i++) {
+      if (this.aborted) {
+        return abortedReturnPayload;
+      }
+
       const {
         finalResponse,
         toolCalls,
@@ -412,6 +441,10 @@ export default class Agent {
         tokensPerSecond,
         ttftMs,
       } = await this.streamCompletion();
+
+      if (this.aborted) {
+        return abortedReturnPayload;
+      }
 
       superUsage.prompt_tokens += streamUsage.prompt_tokens;
       superUsage.completion_tokens += streamUsage.completion_tokens;
